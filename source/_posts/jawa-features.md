@@ -531,33 +531,33 @@ Finalization for Removal</a></td>
 <table>
 <tr>
 <td>405:</td>
-<td><a href="/jeps/405">Record Patterns (Preview)</a></td>
+<td><a href="http://openjdk.java.net/jeps/405">Record Patterns (Preview)</a></td>
 </tr>
 <tr>
 <td>422:</td>
-<td><a href="/jeps/422">Linux/RISC-V Port</a></td>
+<td><a href="http://openjdk.java.net/jeps/422">Linux/RISC-V Port</a></td>
 </tr>
 <tr>
 <td>424:</td>
-<td><a href="/jeps/424">Foreign Function &amp; Memory API
+<td><a href="http://openjdk.java.net/jeps/424">Foreign Function &amp; Memory API
 (Preview)</a></td>
 </tr>
 <tr>
 <td>425:</td>
-<td><a href="/jeps/425">Virtual Threads (Preview)</a></td>
+<td><a href="http://openjdk.java.net/jeps/425">Virtual Threads (Preview)</a></td>
 </tr>
 <tr>
 <td>426:</td>
-<td><a href="/jeps/426">Vector API (Fourth Incubator)</a></td>
+<td><a href="http://openjdk.java.net/jeps/426">Vector API (Fourth Incubator)</a></td>
 </tr>
 <tr>
 <td>427:</td>
-<td><a href="/jeps/427">Pattern Matching for switch (Third
+<td><a href="http://openjdk.java.net/jeps/427">Pattern Matching for switch (Third
 Preview)</a></td>
 </tr>
 <tr>
 <td>428:</td>
-<td><a href="/jeps/428">Structured Concurrency (Incubator)</a></td>
+<td><a href="http://openjdk.java.net/jeps/428">Structured Concurrency (Incubator)</a></td>
 </tr>
 </table>
 </pre>

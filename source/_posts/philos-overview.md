@@ -17,7 +17,7 @@ categories:
 &emsp;&emsp;但是，例如矩阵就构成 “类似于数的对象” 的一个完全独立的世界，它不能被包含在这个链中. 
 与此同时，四元数被发现，然后是 “超复系”（现称为代数）. 无穷小变换导致微分算子，对其而言，自然的运算变成了完全新的东西，即 Poisson（泊松）括号. 
 有限域在代数中出现，而 $p$ 进数在数论中出现. 人们逐渐清楚，试图找到一个统一的包括一切数的概念是绝对没有希望的. </p>
-<p style="text-align:right; font-family: Latin Modern Math; font-style:italic;">I. R. Shafarevich</p>
+<p style="text-align:right; font-family: LatinModern-Math; font-style:italic;">I. R. Shafarevich</p>
 
 
 ## 几何
@@ -34,7 +34,7 @@ categories:
 &emsp;&emsp;这种观点用于讨论非欧几何当然相当有效，但这种研究方式实际已被较早的黎曼的思想从根基上给动摇了。
 黎曼认为，空间不一定非要均勾的，它的曲率可以随空间中的点而变化，因此可能根本不具有对称性。
 代替群论，黎曼把他的几何奠基于微分演算。如我们所知，他的观点最终被爱因斯坦的广义相对论所证实。</p>
-<p style="text-align:right; font-family: Latin Modern Math; font-style:italic;">M. F. Atiyah</p>
+<p style="text-align:right; font-family: LatinModern-Math; font-style:italic;">M. F. Atiyah</p>
 
 ## 平均
 

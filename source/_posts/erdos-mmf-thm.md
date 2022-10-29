@@ -10,14 +10,12 @@ tag:
 <script>document.title = "Erdős 单调乘性函数定理";</script>
 
 <style>
-small {
-  color: grey;
-}
+small { color: grey; }
 </style>
 
 <small>很有意思的一个结果，本文证明来自 Everett Howe.</small>
 
-<div class="scroll" style="font-size: 0.75em; font-family: monospace;">
+<div class="scroll" style="font-size: 0.8em; font-family: JetBrains Mono;">
 <br>A New Proof of Erdos's Theorem on Monotone Multiplicative Functions <br>
 Author(s): Everett Howe <br>
 Source: The American Mathematical Monthly, Vol.93, No.8 (Oct., 1986), pp.593-595 <br>
@@ -37,7 +35,7 @@ $$A=\left\lfloor\dfrac{B\log n}{\log m}\right\rfloor,B=\left\lfloor\dfrac{x\log 
 $$A\log m\le B\log n\quad\land\quad Ax\log m\gt By\log n$$ 这就是说 
 $$m^A\le n^B\quad\land\quad f(m^A)\gt f(n^B)$$ 与 $f$ 增矛盾，证毕.
 
-**定理** $ii$. &nbsp;所有增的乘性函数都是完全乘性.
+**定理** $ii$. &nbsp;所有增的乘性函数都完全乘性.
 
 $proof.$ 作者使用了一个巧妙的引理 $——$ 记 
 $$\ell=\inf\limits_{x\\,\notin\\,p\Z_{\ge1}}\dfrac{f(x+p)}{f(x)}$$ 则有如下蕴含 
