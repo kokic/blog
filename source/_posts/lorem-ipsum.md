@@ -92,7 +92,7 @@ Mauris a dui at ante sagittis tempor dapibus cursus risus. Morbi eu nulla posuer
 
 $$ \sum_{(m,n)\neq(0,0)}\dfrac{1}{(m^2+n^2)^s}=4\sum_{n=0}^\infty\dfrac{(-1)^n}{(2n+1)^s}\sum_{n=1}^\infty\dfrac{1}{n^s}$$
 
-<div style='font-family: Latin Modern Math; font-size:1.2em;'>
+<div style='font-family: LatinModern-Math; font-size:1.2em;'>
   By the time I came home, the cherry trees had shed their blossoms, and dark green leaves were already dominating the view. Though a hackneyed expression, spring was swiftly passing. After my absence of one year and a half, the streets of Tokyo with their vitality and vulgarity showed little change. 
   
   But people changed. So did I. 

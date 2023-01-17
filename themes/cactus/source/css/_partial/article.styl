@@ -4,10 +4,14 @@ article
       margin-top: 0
       margin-bottom: 0
       text-transform: none
-      font-size: 1.5em
+      font-size: 1.5 * $font-size
       line-height: 1.25
       font-family: $font-family-header
-
+    
+    @media (min-width: 720px)
+      .posttitle
+        font-size: 2 * $font-size
+        
     .meta
       margin-top: 0
       margin-bottom: 1rem
@@ -25,15 +29,21 @@ article
       display: inline
 
   .content
+    h2
+      font-size: 1.06 * $font-size
+      // color: purple
+    @media (min-width: 720px)
+      h2
+        font-size: 1.35 * $font-size
     h2:before
       position: absolute
       top: -4px
       left: -1rem
       color: $color-accent-1
       content: "§"
-      font-size: 1.2rem
+      font-size: 1.2em
       font-family: $font-family-section-before
-
+    
     img
     video
       display: block
