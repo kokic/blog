@@ -1,7 +1,7 @@
 
 ---
 title: Java 中基于匿名类的 $\lambda$ 函数合成
-date: 2022-7-14,
+date: 2022-7-14
 categories:
   - 计算机
 tag:
