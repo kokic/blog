@@ -21,7 +21,7 @@ function displayGraph(id, width, height) {
 }
 </script>
 
-上接 [圆函数与椭圆曲线](/2021/08-22-elliptic-curve.html)
+上接 [圆函数与椭圆曲线](/post/08-22-2021/elliptic-curve.html)
 
 ---
 
