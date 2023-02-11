@@ -49,8 +49,8 @@ IUT 理论不同于学校的数学和研究中的传统数学, 加藤文元表�
 
 大小不同的拼图在同一个舞台下无法拼接, 但在不同的舞台中却有可能. 
 
-<div style="overflow: hidden;"><iframe src="../../lib/quiver/index.html?q=WzAsOCxbMCwxLCJcXGJ1bGxldCJdLFswLDMsIlxcYnVsbGV0Il0sWzEsMiwiXFxidWxsZXQiXSxbMiwwLCJcXGJ1bGxldCJdLFsyLDQsIlxcYnVsbGV0Il0sWzQsMCwiXFxidWxsZXQiXSxbNCw0LCJcXGJ1bGxldCJdLFsyLDIsIlxcbnJpZ2h0YXJyb3ciXSxbMCwxLCIiLDAseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzAsMiwiIiwyLHsiY3VydmUiOi0xLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzIsMSwiIiwyLHsiY3VydmUiOi0xLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzMsNSwiIiwwLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs1LDYsIiIsMCx7InN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbNiw0LCIiLDAseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzMsMTIsIiIsMix7ImN1cnZlIjotMiwic2hvcnRlbiI6eyJ0YXJnZXQiOjIwfSwibGV2ZWwiOjEsInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbNCwxMiwiIiwwLHsiY3VydmUiOjIsInNob3J0ZW4iOnsidGFyZ2V0IjoyMH0sImxldmVsIjoxLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV1d&embed" width="100%" height="280" style="transform: scale(1.12); pointer-events: none; border-radius: 2px; border: none;"></iframe>
-<p style="margin: 0; text-align: center;">同一个舞台的拼图</p>
+<div style="overflow: hidden;"><iframe src="../../lib/quiver/index.html?q=WzAsOCxbMCwxLCJcXGJ1bGxldCJdLFswLDMsIlxcYnVsbGV0Il0sWzEsMiwiXFxidWxsZXQiXSxbMiwwLCJcXGJ1bGxldCJdLFsyLDQsIlxcYnVsbGV0Il0sWzQsMCwiXFxidWxsZXQiXSxbNCw0LCJcXGJ1bGxldCJdLFsyLDIsIlxcbnJpZ2h0YXJyb3ciXSxbMCwxLCIiLDAseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzAsMiwiIiwyLHsiY3VydmUiOi0xLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzIsMSwiIiwyLHsiY3VydmUiOi0xLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzMsNSwiIiwwLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs1LDYsIiIsMCx7InN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbNiw0LCIiLDAseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzMsMTIsIiIsMix7ImN1cnZlIjotMiwic2hvcnRlbiI6eyJ0YXJnZXQiOjIwfSwibGV2ZWwiOjEsInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbNCwxMiwiIiwwLHsiY3VydmUiOjIsInNob3J0ZW4iOnsidGFyZ2V0IjoyMH0sImxldmVsIjoxLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV1d&embed" width="100%" height="300" style="pointer-events: none; border-radius: 2px; border: none;"></iframe>
+<p style="margin-top: -1.25em; text-align: center;">同一个舞台的拼图</p>
 </div>
 
 <br>
@@ -91,7 +91,7 @@ Anabelian Geometry 提供了一种从基本群或 Galois 群的对称性重构�
 
 正如到目前为止所解释的, IUT 理论试图做三件事: 在不同舞台之间传输信息, 重建它们, 然后计算失真. 然而, IUT 理论在某种意义上是独一无二的, 它考虑了多个舞台, 这超出了常识并提供了一种新的灵活性. 这里重要的是, 即使使用 IUT 理论, 也希望以通常的方式证明等式/不等式. 传统上, 数学家们一直在单个舞台中进行尝试, 但是, 也许有一些事情是在一个舞台做不到的, 考虑多个舞台可能会走弯路, 但 IUT 理论试图通过利用新的灵活性来证明不等式. 
 
-在不同的舞台, 有 $q^N$ 几乎对应 $q$. 为了避免传输时的失真, $q$ 被视为有着丰富对称性的 $\theta$ 函数的值, 并且只传输$\theta$ 函数的对称性, 在另一个舞台接收到之后使用 Anabelian Geometry 将其复原. 这样就可以通过取其特殊值来计算正确的 $q^N$. 当然, 这个步骤还不足以得出 ABC 猜想, 还需要一个类似的计算, 即恢复数域. 
+在不同的舞台, 有 $q^N$ 几乎对应 $q$. 为了避免传输时的失真, $q$ 被视为有着丰富对称性的 $\theta$ 函数的值, 并且只传输 $\theta$ 函数的对称性, 在另一个舞台接收到之后使用 Anabelian Geometry 将其复原. 这样就可以通过取其特殊值来计算正确的 $q^N$. 当然, 这个步骤还不足以得出 ABC 猜想, 还需要一个类似的计算, 即恢复数域. 
 
 实际上, 计算必须同时对无限对进行, 用数学术语来说, 必须为所有 「地方」 计算它们. 对于所有 Archimedean 的地方和非 Archimedean 的地方, 为了同时进行无数次计算, 需要将它们全部同步. 这一点是非常有技术含量的, 必须在加法和乘法对称之间建立一个非常复杂的同步, 并同时计算它们. 
 
