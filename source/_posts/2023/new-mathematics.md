@@ -50,7 +50,7 @@ IUT 理论不同于学校的数学和研究中的传统数学, 加藤文元表�
 大小不同的拼图在同一个舞台下无法拼接, 但在不同的舞台中却有可能. 
 
 <div style="overflow: hidden;"><iframe src="../../lib/quiver/index.html?q=WzAsOCxbMCwxLCJcXGJ1bGxldCJdLFswLDMsIlxcYnVsbGV0Il0sWzEsMiwiXFxidWxsZXQiXSxbMiwwLCJcXGJ1bGxldCJdLFsyLDQsIlxcYnVsbGV0Il0sWzQsMCwiXFxidWxsZXQiXSxbNCw0LCJcXGJ1bGxldCJdLFsyLDIsIlxcbnJpZ2h0YXJyb3ciXSxbMCwxLCIiLDAseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzAsMiwiIiwyLHsiY3VydmUiOi0xLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzIsMSwiIiwyLHsiY3VydmUiOi0xLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzMsNSwiIiwwLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs1LDYsIiIsMCx7InN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbNiw0LCIiLDAseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzMsMTIsIiIsMix7ImN1cnZlIjotMiwic2hvcnRlbiI6eyJ0YXJnZXQiOjIwfSwibGV2ZWwiOjEsInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbNCwxMiwiIiwwLHsiY3VydmUiOjIsInNob3J0ZW4iOnsidGFyZ2V0IjoyMH0sImxldmVsIjoxLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV1d&embed" width="100%" height="300" style="pointer-events: none; border-radius: 2px; border: none;"></iframe>
-<p style="margin-top: -1.25em; text-align: center;">同一个舞台的拼图</p>
+<p style="margin-top: -0.5em; text-align: center;">同一个舞台的拼图</p>
 </div>
 
 <br>
