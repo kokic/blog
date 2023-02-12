@@ -39,7 +39,7 @@ IUT 理论不同于学校的数学和研究中的传统数学, 加藤文元表�
 
 ### 什么是 Theater
 
-从某种意义上说, 一个舞台是一套完整的日常数学工具, 是一个可以做数学的环境, 可以同时使用加法和乘法. 通常, 在传统数学中, 只在一个剧院里做数学, IUTT 试图提供同时在多个舞台工作的灵活性. 
+从某种意义上说, 一个舞台是一套完整的日常数学工具, 是一个可以做数学的环境, 可以同时使用加法和乘法. 通常, 在传统数学中, 只在一个舞台里做数学, IUTT 试图提供同时在多个舞台工作的灵活性. 
 
 在不同的舞台下, 同一个对象可以是不同的, 反之, 不同的对象其实可以是同一个对象 (可能会出现这种矛盾的情况). 
 
@@ -49,8 +49,8 @@ IUT 理论不同于学校的数学和研究中的传统数学, 加藤文元表�
 
 大小不同的拼图在同一个舞台下无法拼接, 但在不同的舞台中却有可能. 
 
-<div style="overflow: hidden;"><iframe src="../../lib/quiver/index.html?q=WzAsOCxbMCwxLCJcXGJ1bGxldCJdLFswLDMsIlxcYnVsbGV0Il0sWzEsMiwiXFxidWxsZXQiXSxbMiwwLCJcXGJ1bGxldCJdLFsyLDQsIlxcYnVsbGV0Il0sWzQsMCwiXFxidWxsZXQiXSxbNCw0LCJcXGJ1bGxldCJdLFsyLDIsIlxcbnJpZ2h0YXJyb3ciXSxbMCwxLCIiLDAseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzAsMiwiIiwyLHsiY3VydmUiOi0xLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzIsMSwiIiwyLHsiY3VydmUiOi0xLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzMsNSwiIiwwLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs1LDYsIiIsMCx7InN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbNiw0LCIiLDAseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzMsMTIsIiIsMix7ImN1cnZlIjotMiwic2hvcnRlbiI6eyJ0YXJnZXQiOjIwfSwibGV2ZWwiOjEsInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbNCwxMiwiIiwwLHsiY3VydmUiOjIsInNob3J0ZW4iOnsidGFyZ2V0IjoyMH0sImxldmVsIjoxLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV1d&embed" width="100%" height="280" style="transform: scale(1.12); pointer-events: none; border-radius: 2px; border: none;"></iframe>
-<p style="margin: 0; text-align: center;">同一个舞台的拼图</p>
+<div style="overflow: hidden;"><iframe src="../../lib/quiver/index.html?q=WzAsOCxbMCwxLCJcXGJ1bGxldCJdLFswLDMsIlxcYnVsbGV0Il0sWzEsMiwiXFxidWxsZXQiXSxbMiwwLCJcXGJ1bGxldCJdLFsyLDQsIlxcYnVsbGV0Il0sWzQsMCwiXFxidWxsZXQiXSxbNCw0LCJcXGJ1bGxldCJdLFsyLDIsIlxcbnJpZ2h0YXJyb3ciXSxbMCwxLCIiLDAseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzAsMiwiIiwyLHsiY3VydmUiOi0xLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzIsMSwiIiwyLHsiY3VydmUiOi0xLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzMsNSwiIiwwLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs1LDYsIiIsMCx7InN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbNiw0LCIiLDAseyJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzMsMTIsIiIsMix7ImN1cnZlIjotMiwic2hvcnRlbiI6eyJ0YXJnZXQiOjIwfSwibGV2ZWwiOjEsInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbNCwxMiwiIiwwLHsiY3VydmUiOjIsInNob3J0ZW4iOnsidGFyZ2V0IjoyMH0sImxldmVsIjoxLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV1d&embed" width="100%" height="300" style="pointer-events: none; border-radius: 2px; border: none;"></iframe>
+<p style="margin-top: -0.5em; text-align: center;">同一个舞台的拼图</p>
 </div>
 
 <br>
@@ -62,7 +62,7 @@ IUT 理论不同于学校的数学和研究中的传统数学, 加藤文元表�
 
 在数学上, 这两部分是 IUT 理论中的两次乘法. 与另一种乘法相比, 一种乘法因膨胀或收缩而变形. 使用不同的舞台将它们放在一起, 这就是所谓的 Theta-link ($\Theta\textbf{-link}$). 在不同的舞台里, 保持加法不变的情况下, 用膨胀或收缩复制乘法, 然后将它们连接在一起. 这里试图在两个原本不同的部分之间以形式或 「同义反复」 的方式组合或建立关系, 特别是因为它们在每一方都属于不同的舞台, 如果你简单地把它们等同起来, 或者把它们带回一个舞台, 这种等同就会产生矛盾. 因此, 需要谨慎对待不能简单地将它们等同起来的事实. 这意味着如果使用等式或不等式, 或者将它们带回标准数学 (尽管这可能有点误导), 则会导致失真. 
 
-IUT 理论中的重要事实是, 可以测量由不同剧院之间的传输引起的失真. 事实上, 这是 IUT 理论中非常重要的定理之一. 
+IUT 理论中的重要事实是, 可以测量由不同舞台之间的传输引起的失真. 事实上, 这是 IUT 理论中非常重要的定理之一. 
 
 笔者注: 关于这一点, 望月本人也有类似的说法, 可参见 [Gaussian integral 计算综述](../../post/10-02-2020/the-gaussian-integral.html).
 
@@ -91,10 +91,10 @@ Anabelian Geometry 提供了一种从基本群或 Galois 群的对称性重构�
 
 正如到目前为止所解释的, IUT 理论试图做三件事: 在不同舞台之间传输信息, 重建它们, 然后计算失真. 然而, IUT 理论在某种意义上是独一无二的, 它考虑了多个舞台, 这超出了常识并提供了一种新的灵活性. 这里重要的是, 即使使用 IUT 理论, 也希望以通常的方式证明等式/不等式. 传统上, 数学家们一直在单个舞台中进行尝试, 但是, 也许有一些事情是在一个舞台做不到的, 考虑多个舞台可能会走弯路, 但 IUT 理论试图通过利用新的灵活性来证明不等式. 
 
-在不同的舞台, 有 $q^N$ 几乎对应 $q$. 为了避免传输时的失真, $q$ 被视为有着丰富对称性的 $\theta$ 函数的值, 并且只传输$\theta$ 函数的对称性, 在另一个舞台接收到之后使用 Anabelian Geometry 将其复原. 这样就可以通过取其特殊值来计算正确的 $q^N$. 当然, 这个步骤还不足以得出 ABC 猜想, 还需要一个类似的计算, 即恢复数域. 
+在不同的舞台, 有 $q^N$ 几乎对应 $q$. 为了避免传输时的失真, $q$ 被视为有着丰富对称性的 $\theta$ 函数的值, 并且只传输 $\theta$ 函数的对称性, 在另一个舞台接收到之后使用 Anabelian Geometry 将其复原. 这样就可以通过取其特殊值来计算正确的 $q^N$. 当然, 这个步骤还不足以得出 ABC 猜想, 还需要一个类似的计算, 即恢复数域. 
 
-实际上, 计算必须同时对无限对进行, 用数学术语来说, 必须为所有 「位置」 计算它们. 对于所有 Archimedean 的地方和非 Archimedean 的地方, 为了同时进行无数次计算, 需要将它们全部同步. 这一点是非常有技术含量的, 必须在加法和乘法对称之间建立一个非常复杂的同步, 并同时计算它们. 
+实际上, 计算必须同时对无限对进行, 用数学术语来说, 必须为所有 「位点」 计算它们. 对于所有 Archimedean 和非 Archimedean 的位点, 为了同时进行无数次计算, 需要将它们全部同步. 这一点是非常有技术含量的, 必须在加法和乘法对称之间建立一个非常复杂的同步, 并同时计算它们. 
 
-笔者注: 此处的 「位置」 与赋值同义. 
+笔者注: 此处的 「位点」 与赋值同义, 即 place. 
 
 这就是整个故事.
