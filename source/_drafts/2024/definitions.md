@@ -28,6 +28,8 @@ tags:
 
 ## Curves
 
+- $\vdash$ to denote mono-analytic structures. 
+
 a hyperbolic orbicurve $\underline{X}\overset{\text{def}}{=}\underline{C}\times_CX$
 
 natural cartesian diagrams of finite etale coverings of hyperbolic orbicurves and open immersions of profinite groups. 
@@ -37,4 +39,6 @@ natural cartesian diagrams of finite etale coverings of hyperbolic orbicurves an
 
 - alien “arithmetic holomorphic structure” i.e. alien “conventional scheme theory”
 
+
+<div style="overflow: hidden;"><iframe src="../../lib/quiver/index.html?q=WzAsMyxbMCwxLCJcXG92ZXJzZXR7XFxtYXRoYmJ7Rn1fbF57XFxydGltZXNcXHBtfX1cXGN1cnZlYXJyb3dyaWdodFxccXVhZFxcdW5kZXJsaW5le1h9X0siXSxbMSwwLCJcXG92ZXJzZXR7XFx7XFxwbTFcXH19XFxjdXJ2ZWFycm93cmlnaHRcXHF1YWRcXHtcXHVuZGVybGluZXtcXHVuZGVybGluZXtYfX1fe1xcdW5kZXJsaW5le3Z9fVxcdGV4dHsgb3IgfVxcdW5kZXJyaWdodGFycm93e1h9X3tcXHVuZGVybGluZXt2fX1cXH1fe1xcdW5kZXJsaW5le3Z9XFxpblxcbWF0aGJie1xcdW5kZXJsaW5le1Z9fX0iXSxbMiwxLCJcXHVuZGVybGluZXtDfV9LXFxxdWFkXFxvdmVyc2V0e1xcbWF0aGJie0Z9X2xee1xcZGl2aWRlb250aW1lc319XFxjdXJ2ZWFycm93bGVmdCJdLFswLDEsIiIsMCx7InNob3J0ZW4iOnsic291cmNlIjoyMCwidGFyZ2V0IjoyMH0sInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMSwyLCIiLDAseyJzaG9ydGVuIjp7InNvdXJjZSI6MjAsInRhcmdldCI6MjB9LCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV1d&embed" width="100%" style="transform: scale(1.3); pointer-events: none; border-radius: 2px; border: none;"></iframe></div>
 
