@@ -8,7 +8,7 @@ tag:
   - 程序语言
 ---
 
-<script src="../lib/loader.js"></script>
+<script src="../../lib/loader.js"></script>
 
 <script>
 

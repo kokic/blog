@@ -8,7 +8,7 @@ tag:
   - 程序语言
 ---
 
-<script src="../lib/loader.js"></script>
+<script src="../../lib/loader.js"></script>
 
 Ordinary Fibonacci sequence calculation program, but Prism. js really surprised me. I adjusted the color scheme myself, and thus I learned how to set the colors of prism's various tokens. Here, we assume that ℤ is `Integer`.
 
