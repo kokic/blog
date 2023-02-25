@@ -2,6 +2,7 @@
   - [序](IUT/序.html)
 
 ### modular
+  - [ϑ 系数的算术信息](modular/ϑ%20系数的算术信息.html)
   - [𝜁 函数的图景·壹](modular/𝜁%20函数的图景·壹.html)
 
 ### sheaf
