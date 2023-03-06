@@ -8,7 +8,7 @@ title: field miscella
   - $F=\mathbb{Q}[X]/(X^2-2), \overline{F}=\mathbb{A}$.
   
 
-- $\overline{\R}=\mathbb{C}$, the algebraic closure of real field is complex field. 
+- $\overline{\mathbb{R}}=\mathbb{C}$, the algebraic closure of real field is complex field. 
 
 
 - automorphisms of 
