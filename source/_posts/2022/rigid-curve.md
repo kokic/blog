@@ -3,6 +3,7 @@ title: Rigidity of Elliptic Curve
 date: 2022-6-9
 categories:
   - 数学
+  - [record]
 tag:
   - 代数
   - 数论

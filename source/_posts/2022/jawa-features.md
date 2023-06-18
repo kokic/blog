@@ -4,11 +4,13 @@ title: インデックス of Jawa 新機能
 date: 2022-09-22
 categories:
   - 计算机
+  - [record]
 ---
 
 <style>
 pro { font-size: 0.75em }
 hs { line-height: 2.5em; }
+a { font-weight: 400; }
 </style>
 
 [JDK Update Releases](https://openjdk.org/projects/jdk-updates/)、[Qiita](https://qiita.com/)、[Azul](https://www.azul.com/) から収集.

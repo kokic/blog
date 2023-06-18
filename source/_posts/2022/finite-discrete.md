@@ -1,9 +1,11 @@
 
 ---
 title: 调和分析的有限离散逼近
+home: true
 date: 2022-5-13
 categories:
-  - 数学
+  - [数学]
+  - [record]
 tags:
   - IUTT
 ---

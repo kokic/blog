@@ -1,9 +1,11 @@
 
 ---
 title: Gaussian integral 计算综述
+home: true
 date: 2020-10-02
 categories:
   - 数学
+  - [record]
 tags:
   - IUTT
 ---

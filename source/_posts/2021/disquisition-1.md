@@ -1,6 +1,6 @@
 
 ---
-title: 不等式一论
+title: 不等式 I
 date: 2021-2-25
 categories:
   - 数学

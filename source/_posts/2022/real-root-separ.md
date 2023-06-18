@@ -3,6 +3,7 @@ title: 实根隔离
 date: 2022-3-16
 categories:
   - 数学
+  - [record]
 tag:
   - 代数
   - 多项式

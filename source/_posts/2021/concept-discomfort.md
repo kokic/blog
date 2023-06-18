@@ -2,8 +2,10 @@
 ---
 title: 基本概念不适的数学分析
 date: 2021-9-10
+home: true
 categories:
   - 数学
+  - [record]
 tags:
   - IUTT
 ---

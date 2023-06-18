@@ -3,7 +3,8 @@
 title: 简单图的色多项式分解
 date: 2022-2-23
 categories:
-  - 数学
+  - [数学]
+  - [record]
 tag:
   - 组合
 ---

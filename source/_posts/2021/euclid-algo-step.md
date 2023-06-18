@@ -4,6 +4,7 @@ title: 辗转相除法步数估计
 date: 2021-6-10
 categories:
   - 数学
+  - [record]
 tag:
   - 数论
 ---

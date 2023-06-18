@@ -3,7 +3,7 @@ title: 未有天才之前
 author: 鲁迅
 date: 2022-7-27
 categories:
-  - 文学
+  - [record]
 ---
 
 <small style="color: grey;">一九二四年一月十七日在北京师范大学附属中学校友会讲</small>

@@ -4,6 +4,7 @@ title: the big picture & development
 date: 2020-09-13
 categories:
   - 数学
+  - [record]
 tag:
   - 连分数
 ---

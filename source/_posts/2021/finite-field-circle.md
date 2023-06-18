@@ -4,6 +4,7 @@ title: 有限域与圆法 - Extend & Conquer
 date: 2021-11-27
 categories:
   - 数学
+  - [record]
 tag:
   - 不等式
 ---

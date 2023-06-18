@@ -1,6 +1,7 @@
 
 ---
 title: Construction of letters
+home: true
 date: 2022-5-17
 categories:
   - 计算机

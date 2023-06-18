@@ -1,9 +1,11 @@
 
 ---
 title: 椭圆曲线的群结构
+home: true
 date: 2021-09-12
 categories:
   - 数学
+  - [record]
 tag:
   - 代数
   - 几何

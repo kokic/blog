@@ -4,6 +4,7 @@ title: Distribution of Prime Numbers I
 date: 2022-07-10
 categories:
   - 数学
+  - [record]
 tag:
   - 分析
   - 数论

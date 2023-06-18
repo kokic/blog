@@ -4,6 +4,7 @@ title: 多项式的 Fermat 大定理 - 几何工具
 date: 2021-10-28
 categories:
   - 数学
+  - [record]
 tag:
   - 代数
   - 几何

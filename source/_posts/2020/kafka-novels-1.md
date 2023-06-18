@@ -2,7 +2,7 @@
 title: 卡夫卡短篇小说三则
 date: 2020-08-19
 categories:
-  - 文学
+  - [record]
 ---
 
 ## 塞壬们的沉默

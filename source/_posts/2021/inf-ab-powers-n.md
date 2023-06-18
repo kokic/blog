@@ -2,7 +2,8 @@
 title: 一般的幂和下界
 date: 2021-08-24
 categories:
-  - 数学
+  - [数学]
+  - [record]
 tag:
   - 不等式
 ---

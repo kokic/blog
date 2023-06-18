@@ -1,9 +1,11 @@
 
 ---
 title: 圆函数与椭圆曲线
+home: true
 date: 2021-08-22
 categories:
   - 数学
+  - [record]
 tag:
   - 分析
   - 几何

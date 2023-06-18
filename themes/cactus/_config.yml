@@ -28,10 +28,10 @@ nav:
 social_links:
   github: https://github.com/kokic
   zhihu: https://www.zhihu.com/people/kokic-86
-  # twitter: /
+  # twitter: 
   # facebook: /
   # linkedin: /
-  mail: mailto:kokicplus@126.com
+  mail: mailto:kokicplus@gmail.com
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -43,8 +43,7 @@ tags_overview: false
 #   - post_count: whether to show only the x most recent posts.
 #   - sort_updated: sort posts by last modification date instead of creation date.
 posts_overview:
-  show_all_posts: false
-  post_count: 5
+  show_all_posts: true
   sort_updated: false
 
 # Customize the archive view.
@@ -54,7 +53,7 @@ posts_overview:
 # plugin will sort pages by date of creation.
 archive:
   sort_updated: false
-
+  
 # Customize the article view.
 # Options:
 #   - show_updated: show the last modification date.

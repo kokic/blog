@@ -3,7 +3,7 @@
 title: 落书き
 date: 2020-12-05
 categories:
-  - 杂谈
+  - [record]
 tag:
   - lorem ipsum
 ---

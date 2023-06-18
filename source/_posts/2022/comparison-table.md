@@ -1,9 +1,9 @@
 ---
-title: 生草词汇对照表
+title: 词汇对照表
 date: 2022-4-2
 categories:
-  - 数学
-tag:
+  - [数学]
+  - [record]
 ---
 
 <style>
@@ -20,7 +20,7 @@ table td {
 }
 </style>
 
-如题，这些词汇的对照在很大程度上是丢失上下文的 (参考第一行 and)，所以仅供参考 (譬如 affine geometry $\lrarr$ géométrie affine)，不宜在正式场合使用. “——”表直接沿用已有词汇，人名地名等均小写处理，词汇的选取实则全看笔者意愿.
+如题，这些词汇的对照在很大程度上是丢失上下文的 (参考第一行 and)，所以仅供参考 (譬如 affine geometry $\lrarr$ géométrie affine). “——” 表直接沿用已有词汇，人名地名等均小写处理.
 
  英 | 仏 | 霓 | 中 
 -- | -- | -- | -- 
@@ -100,4 +100,4 @@ infinite dimensional | infinite dimensional | 無限次元 | 无穷维
 
 ---
 
-有空再写.
+待续.

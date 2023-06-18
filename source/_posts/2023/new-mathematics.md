@@ -1,21 +1,32 @@
 
 ---
 title: Kato Fumiharu in Oct 7, 2017
+home: true
 date: 2023-2-12
 categories:
-  - 数学
+  - [数学]
+  - [record]
 tags:
   - IUTT
 ---
 
+<style>
+small { color: grey; }
+</style>
+
 整理自 [abc Conjecture and New Mathematics](https://www.youtube.com/watch?v=fNS7N04DLAQ). 
 
-演讲正式内容开始前 (评论区的) 的一道数列问题: $a_1=-3,a_{n+1}=7-\frac{10}{a_n}$.
+<small>
 
-由于和内容无关, 这里只给出结果. 
+演讲正式内容开始前 (评论区的) 的一道数列问题: 
+$$a_1=-3,a_{n+1}=7-\frac{10}{a_n}$$
+
+由于和内容无关, 这里只给出结果
 $$a_n=5+\frac{3\cdot2^{n+2}}{5^n-2^{n+2}}$$
 
 其他在演讲进行时出现的 (Nico Nama) TeX 评论大多比较零碎, 往往只是一些字母或表达式, 没有明确的意义. 
+
+</small>
 
 ---
 
@@ -95,6 +106,6 @@ Anabelian Geometry 提供了一种从基本群或 Galois 群的对称性重构�
 
 实际上, 计算必须同时对无限对进行, 用数学术语来说, 必须为所有 「位点」 计算它们. 对于所有 Archimedean 和非 Archimedean 的位点, 为了同时进行无数次计算, 需要将它们全部同步. 这一点是非常有技术含量的, 必须在加法和乘法对称之间建立一个非常复杂的同步, 并同时计算它们. 
 
-笔者注: 此处的 「位点」 与赋值同义, 即 place. 
+笔者注: 此处的 「位点」 即 place. 
 
 这就是整个故事.

@@ -1,5 +1,5 @@
 ---
-title: 新观点下的不等式
+title: 不等式 II
 date: 2021-6-25
 categories:
   - 数学

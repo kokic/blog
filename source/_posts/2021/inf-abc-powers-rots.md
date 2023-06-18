@@ -3,6 +3,7 @@ title: 幂的轮换和下界
 date: 2021-07-23
 categories:
   - 数学
+  - [record]
 tag:
   - 不等式
 ---

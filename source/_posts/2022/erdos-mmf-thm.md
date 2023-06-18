@@ -2,7 +2,8 @@
 title: $\text{Erdős}$ 单调乘性函数定理
 date: 2022-1-24
 categories:
-  - 数学
+  - [数学]
+  - [record]
 tag:
   - 分析
 ---

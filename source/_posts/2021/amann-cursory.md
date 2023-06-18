@@ -4,6 +4,7 @@ title: Amann の Analysis I の 浮光掠影
 date: 2022-07-31
 categories:
   - 数学
+  - [record]
 tag:
   - 分析
 ---

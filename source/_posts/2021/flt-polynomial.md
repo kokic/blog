@@ -3,6 +3,7 @@ title: 多项式的 Fermat 大定理
 date: 2021-08-11
 categories:
   - 数学
+  - [record]
 tag:
   - 数论
   - 多项式

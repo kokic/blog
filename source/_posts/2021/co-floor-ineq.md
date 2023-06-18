@@ -4,6 +4,7 @@ title: 小数部估计
 date: 2021-7-11
 categories:
   - 数学
+  - [record]
 tag:
   - 数论
 ---
