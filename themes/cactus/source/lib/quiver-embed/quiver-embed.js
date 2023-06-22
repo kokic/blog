@@ -9,11 +9,11 @@ document.addEventListener('DOMContentLoaded', function (event) {
 
     element.textContent = '';
     element.style.textAlign = 'center';
-    element.style.overflow = 'visible';
-
+    element.style.overflow = 'hidden';
+    
     const scale = element.dataset.scale || '1.3';
     element.style.margin = `0`;
-    element.style.padding = `0`;
+    element.style.padding = `${1 + +scale}em`;
 
     const frame = document.createElement('iframe');
     frame.src = `../../lib/quiver/index.html?q=${base64}&embed`;

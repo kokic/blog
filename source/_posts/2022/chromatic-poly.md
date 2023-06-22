@@ -23,7 +23,7 @@ $$\pi_G(q)=\pi_{G\\,-\\,e}(q)-\pi_{G\\,\cdot\\,e}(q)$$ 这被称作 删除收缩
 ---
 
 
-<pre class="quiver">
+<pre class="quiver" data-scale="1.5">
 [0, 6,
   [0, 1, "G"],
   [1, 1, "="],
@@ -42,7 +42,7 @@ $$\pi_G(q)=\pi_{G\\,-\\,e}(q)-\pi_{G\\,\cdot\\,e}(q)$$ 这被称作 删除收缩
 
 然而，即便是对于这样简单的图，若不借助上述结果，想要计算其着色数 $[$色多项式$]$ 也不是一件容易的事. 但是对于端点数更少的图, 是容易计算的, 譬如：
 
-<pre class="quiver">
+<pre class="quiver" data-scale="1.5">
 [0, 5,
   [2, 0, "\bullet"], 
   [2, 2, "\bullet"], 
@@ -57,7 +57,7 @@ $$\pi_G(q)=\pi_{G\\,-\\,e}(q)-\pi_{G\\,\cdot\\,e}(q)$$ 这被称作 删除收缩
 
 几乎可以一眼看出其各个端点的着色数
 
-<pre class="quiver">
+<pre class="quiver" data-scale="1.5">
 [0, 3,
   [0, 0, "q"],
   [0, 2, "q-1"],
@@ -73,7 +73,7 @@ $$\pi_G(q)=\pi_{G\\,-\\,e}(q)-\pi_{G\\,\cdot\\,e}(q)$$ 这被称作 删除收缩
 
 
 
-<pre class="quiver">
+<pre class="quiver" data-scale="1.5">
 [0, 4, 
   [0, 0, "q"], 
   [0, 2, "q-1"], 
@@ -91,8 +91,7 @@ $$\pi_G(q)=q(q-1)(q^2-3q+3)$$
 
 现在来考虑一个 $n$ 边形的着色数 —— 或者等价的，可以看成是将圆分成 $n$ 个扇形，然后对扇形着色，而相邻扇形不重色. 对于着色数而言，边的弯曲与否无需关注，因此绘制成弧亦无影响，故以下图来表示一 $n$ 边形.
 
-
-<pre class="quiver">
+<pre class="quiver" data-scale="1.5" >
 [0, 5, 
   [0, 0, "\bullet_1"], 
   [2, 0, "\bullet_2"], 

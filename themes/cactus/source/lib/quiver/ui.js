@@ -38,7 +38,7 @@ Object.assign(CONSTANTS, {
         HEIGHT: 400,
     },
     /// How many pixels to leave around the border of an embedded diagram.
-    EMBED_PADDING: 2, // 4-px for 3-curve
+    EMBED_PADDING: 0, // 4-px for 3-curve
 });
 
 /// Various states for the UI (e.g. whether cells are being rearranged, or connected, etc.).
