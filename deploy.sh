@@ -1,4 +1,6 @@
 
+comment=${1:-"#"}
+
 hexo g
 
 cp -ru ./public/* ../kokic.github.io
@@ -6,5 +8,11 @@ cp -ru ./public/* ../kokic.github.io
 cd ../kokic.github.io
 git status
 git add .
-git commit -m "#"
+git commit -m ${comment}
+git push
+
+cd ../hexo-cn
+git status
+git add .
+git commit -m "sync"
 git push
