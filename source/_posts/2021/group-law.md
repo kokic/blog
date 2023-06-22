@@ -57,7 +57,21 @@ $$\begin{aligned}b_2&=0 \\\ b_4&=2A \\\ b_6&=4B \\\ b_8&=-A^2 \\\ c_4&=-48A \\\ 
 
 单值化定理 $[$Uniformization Theorem$]$ 表明 $\Complex$ 上任意的椭圆曲线 $E:y^2=x^3+Ax+B$ 都一一对应到一个复格 $\Lambda$ 使
 $$\begin{aligned}\psi:\Complex/\Lambda&\xrightarrow{\qquad} E \\\ z&\xmapsto{\qquad}(\wp(z),\wp^\prime(z))\end{aligned}$$ 是复李群同构，即 $E\cong\Complex/\Lambda$ $[$解析同构$]$. 故椭圆曲线之间的态射 $\psi$ 可以一一对应到复环面 $\Complex/\Lambda$ 间的全纯映射
-<script> displayGraph(1, "22ex") </script>
+
+<pre class="quiver">
+[0, 4, 
+  [0, 0, "\mathbb{C}/\Lambda_1"], 
+  [2, 0, "\mathbb{C}/\Lambda_2"], 
+  [0, 1, "E"], 
+  [2, 1, "E^\prime"], 
+  
+  [0, 1, "\alpha"], 
+  [0, 2, "\psi", 2], 
+  [1, 3, "\psi^\prime"], 
+  [2, 3, "\phi", 2]
+]
+</pre>
+
 其中 $\alpha\in\Complex$ 满足 $\alpha\Lambda_1\subseteq\Lambda_2$，复乘 $$\text{Hom}(\Lambda_1,\Lambda_2)=\\{\alpha\in\Complex:\alpha\Lambda_1\subseteq\Lambda_2\\}$$
 
 注：$[$复数域 $\mathbb{C}$ 上的$]$ 椭圆曲线 $(E,\mathcal{O})$ $\iff$ 亏格 $1$ 带基点 $\mathcal{O}\in E$ 的紧 Riemann 曲面 $E$ 典范同构于 $(\mathbb{C}/\Lambda,0)$. 
