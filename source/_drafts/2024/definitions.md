@@ -58,3 +58,5 @@ $$J(\alpha)\defeq|\alpha^2-\alpha+1|^3|\alpha|^{-2}|\alpha-1|^{-2}$$
 
 
 
+
+

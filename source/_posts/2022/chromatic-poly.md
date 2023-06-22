@@ -9,7 +9,8 @@ tag:
   - 组合
 ---
 
-<script src="../lib/graphs.js"></script>
+<script src="../../lib/quiver-embed/quiver-embed.js"></script>
+
 
 简单图意谓既无平行边 $[$同一条边$]$ 亦无自环 $[$顶点到自身的边$]$ 的图，现取一简单图 $G$ 与其上一边 $e$，$\pi(G)$ 表以 $q$ 种颜色着 $G$ 上顶点的总着色数 $[$即，色多项式$] ($自然，着色要求被边相连的顶点不重色$)$，则有如下等式
 $$\pi_G(q)=\pi_{G\\,-\\,e}(q)-\pi_{G\\,\cdot\\,e}(q)$$ 这被称作 删除收缩公式 $[$deletion-contraction formula$]$ 其中 $G-e$ 是从 $G$ 中删去边 $e$ 所剩图 $G-\\{e\\}$ 的简记, $G\cdot e$ 则表示将 $G$ 中边 $e$ 的两个端点合并为一个点后所得的图, 而原先的 $e$ 自动消失.
@@ -25,37 +26,22 @@ $$\pi_G(q)=\pi_{G\\,-\\,e}(q)-\pi_{G\\,\cdot\\,e}(q)$$ 这被称作 删除收缩
 ---
 
 
+<pre class="quiver">
+[0, 6,
+  [0, 1, "G"],
+  [1, 1, "="],
+  [2, 0, "\\bullet"], 
+  [2, 2, "\\bullet"], 
+  [4, 2, "\\bullet"], 
+  [4, 0, "\\bullet"],
 
-<script>
-
-
-const frame = document.createElement('iframe');
-frame.src = '../../lib/quiver/index.html?json';
-frame.style.border = 'none';
-frame.style.pointerEvents = 'none';
-frame.style.transform = 'scale(1.3)';
-
-const wrapper = document.createElement('div');
-wrapper.style.textAlign = 'center';
-wrapper.appendChild(frame);
-
-localStorage.setItem("quiver.json", String.raw`
-[0,6,
-  [0,1,"G"],
-  [1,1,"="],
-  [2,0,"\\bullet"],[2,2,"\\bullet"],[4,2,"\\bullet"],[4,0,"\\bullet"],
-  
-  [2,3,"",0,{"style":{"head":{"name":"none"}}}],[3,4,"",0,{"style":{"head":{"name":"none"}}}],[2,5,"",2,{"style":{"head":{"name":"none"}}}],[5,4,"",2,{"style":{"head":{"name":"none"}}}]
+  [2, 3, "", 0, {"style": { "head": { "name": "none" } } }], 
+  [3, 4, "", 0, { "style": { "head": { "name": "none" } } }], 
+  [2, 5, "", 2, { "style": { "head": { "name": "none" } } }], 
+  [5, 4, "", 2, { "style": { "head": { "name": "none" } } }]
 ]
-`);
+</pre>
 
-document.write(wrapper.outerHTML);
-
-
-
-
-
-</script>
 
 
 <!--
@@ -87,7 +73,7 @@ width="100%" style="transform: scale(1.3); margin: 0 auto; pointer-events: none;
 于是 $\pi_{G\\,-\\,e}(q)=q(q-1)^3$，可知 
 $$\pi_G(q)=q(q-1)(q^2-3q+3)$$
 
-现在来考虑一个 $n$ 边形的着色数 $——$ 或者等价的，可以看成是将圆分成 $n$ 个扇形，然后对扇形着色，而相邻扇形不重色. 对于着色数而言，边的弯曲与否无需关注，因此绘制成弧亦无影响，故以下图来表示一 $n$ 边形.
+现在来考虑一个 $n$ 边形的着色数 —— 或者等价的，可以看成是将圆分成 $n$ 个扇形，然后对扇形着色，而相邻扇形不重色. 对于着色数而言，边的弯曲与否无需关注，因此绘制成弧亦无影响，故以下图来表示一 $n$ 边形.
 
 <div style="overflow: hidden;"><iframe src="../../lib/quiver/index.html?q=
 WzAsNSxbMCwwLCJcXGJ1bGxldF8xIl0sWzIsMCwiXFxidWxsZXRfMiJdLFswLDIsIlxcYnVsbGV0X24iXSxbMiwyLCJcXGJ1bGxldF8zIl0sWzEsMiwiXFxjZG90cyJdLFsxLDAsIiIsMCx7ImN1cnZlIjoyLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzAsMiwiIiwwLHsiY3VydmUiOjIsInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMSwzLCIiLDIseyJjdXJ2ZSI6LTIsInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XV0=&embed"
