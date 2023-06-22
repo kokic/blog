@@ -10,7 +10,7 @@ tags:
   - IUTT
 ---
 
-Mochizuki 在 2020 年 4 月 4 日的 [更新](http://www.kurims.kyoto-u.ac.jp/~motizuki/Alien%20Copies,%20Gaussians,%20and%20inter-universal%20Teichmuller%20Theory.pdf) 中修正了旧文 [2016 年 12 月] 的（单词拼写）错误、改善了排版并添加了一些新的文字叙述，本文是对其中一小部分（1.）的翻译. 作者举高斯积分为例，并以 “高中生” 的视角来看待，使读者能在具体直观上了解 IUT 理论中的一个基础概念 $—$ alien copies，本文虽已将其蹩脚地译作「相异拷贝」，却仍觉词不达意、有失风雅，为不曲解原意加之本人水平有限，本文大体采取直译，如此云云，望读者见谅. 
+Mochizuki 在 2020 年 4 月 4 日的 [更新](http://www.kurims.kyoto-u.ac.jp/~motizuki/Alien%20Copies,%20Gaussians,%20and%20inter-universal%20Teichmuller%20Theory.pdf) 中修正了旧文 [2016 年 12 月] 的（单词拼写）错误、改善了排版并添加了一些新的文字叙述，本文是对其中一小部分（1.）的翻译. 
 
 ## 1.1. inter-universal Teichmüller 理论与高斯积分
 本文的目的是为读者铺平道路，从对 inter-universal Teichmüller 理论完全无知的状态到对理论 “方案” 的一般理解，重新考虑了众所周知的高斯积分的计算 $$\displaystyle\int_{-\infty}^\infty e^{-x^{2}}\mathrm{d}x=\sqrt{\pi}$$
