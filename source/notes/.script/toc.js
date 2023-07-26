@@ -28,6 +28,9 @@ const markList = (name, xs) => `### ${name}\n` +
 
 const contents = x => Object.keys(x).reduce((s, v) => s + markList(v, x[v]) + '\n', '')
 
-fs.writeFileSync('../index.md', contents(obj))
+const outputTemplate = s => `\nNotes 用于存放那些更接近注记与例子的内容. \n\n${s}`
+
+
+fs.writeFileSync('../index.md', outputTemplate(contents(obj)))
 
 // const source = fs.readFileSync('../

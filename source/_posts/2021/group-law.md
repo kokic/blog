@@ -11,18 +11,6 @@ tag:
   - 几何
 ---
 
-<script src="../../lib/loader.js"></script>
-<script>
-const path = "/assets/images/group-law";
-const suffix = "svg";
-function displayGraph(id, width, height) {
-  const 𝓞 = `${path}-${id}.${suffix}`;
-  document.write((height != null || height != undefined) ? 
-    "<div style='margin:0 auto;'>" + loadFile(𝓞).replace("viewBox", "width=" + width + " height=" + height + " viewBox") + "</div>": 
-    "<div style='margin:0 auto;'>" + loadFile(𝓞).replace("viewBox", "width=" + width +  " viewBox") + "</div>");
-  document.close();
-}
-</script>
 
 上接 [圆函数与椭圆曲线](../elliptic-curve)
 

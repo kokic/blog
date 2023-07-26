@@ -13,9 +13,9 @@ table th {
 }
 </style>
 
-## 友链
+## links
 
-| <ruby>何<rt>dona</rt>者<rt>ta</rt></ruby> |  | <ruby>鏈<rt>rinn</rt>接<rt>ku</rt></ruby> |
+| |  | |
 | - | - | - |
 | Oyyko || [blog.oyyko.com](https://blog.oyyko.com/) |
 | 兽々 || [qinshou2017.github.io](https://qinshou2017.github.io/) |
@@ -25,6 +25,5 @@ table th {
 | 徐诩绫目 || [home.ustc.edu.cn/~xuxuayame](http://home.ustc.edu.cn/~xuxuayame)
 |Reinhardt|| [reinhardthk.github.io](http://reinhardthk.github.io/)
 |迷亭|| [m1ting.github.io](https://m1ting.github.io/)
-
 
 

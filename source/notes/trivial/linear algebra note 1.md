@@ -3,7 +3,7 @@
 title: linear algebra note 1
 ---
 
-Also see: (1) [Amann の Analysis I の 浮光掠影 - Vector Spaces](../../post/07-31-2021/amann-cursory.html#Vector-Spaces). (2) [SL2(R) 上的 Gauss 定理](../symplectic/SL2(R)%20%E4%B8%8A%E7%9A%84%20Gauss%20%E5%AE%9A%E7%90%86.html). 
+Also see: (1) [Amann の Analysis I の 浮光掠影 - Vector Spaces](../../article/amann-cursory#Vector-Spaces). (2) [SL2(R) 上的 Gauss 定理](../symplectic/SL2(R)%20%E4%B8%8A%E7%9A%84%20Gauss%20%E5%AE%9A%E7%90%86.html). 
 
 - $\mathbb{F}^n\overset{\text{def}}{=}\\{(a_i)_{1\le1\le n}\mid a_i\in\mathbb{F}\\}$ 连同向量的加法以及标量 [i.e. 纯量] 与向量的乘法一起称为 $\mathbb{F}$ 上的 $n$ 维向量空间.
 
