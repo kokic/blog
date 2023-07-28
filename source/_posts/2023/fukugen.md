@@ -22,7 +22,7 @@ tags:
 
 数字是我们文化的基本概念之一. 数学中最困难的未解决问题是数论问题. 这很容易理解. 自然数是无限但离散的. 实数形成一个线性连续统. 在十九世纪末, Georg Cantor 证明了自然数和实数之间没有一一对应的映射. 这仍然是一个令人震惊的结果. 这些结构之间的相互作用引发了数学中的根本变革, 许多数学家怀疑, 在深层次上, 自然数背后的数学结构是连续的. 物理学和化学的历史也表明了这一点. 元素周期表似乎列出了一系列离散的原子, 但从量子场论这个更深层次的角度来看, 这些稳定、离散、甚至是孤立的结构是连续场所佩戴的适应性面具. 
 
-IUT 为数字提供了一种新的观点. 这听起来好像 望月宣布了一个纯数学计划, 而不是执行了一个计划. 但 IUT 为数论中的几个突出问题提供了证明：椭圆曲线的强 Szpiro 猜想, 双曲曲线的 Vojta 猜想和椭圆曲线的 Frey 猜想. 
+IUT 为数字提供了一种新的观点. 这听起来好像望月宣布了一个纯数学计划, 而不是执行了一个计划. 但 IUT 为数论中的几个突出问题提供了证明：椭圆曲线的强 Szpiro 猜想, 双曲曲线的 Vojta 猜想和椭圆曲线的 Frey 猜想. 
 
 它解决了著名的 Oesterlé-Masser 或 abc 猜想 [^2]. 
 
@@ -108,7 +108,7 @@ Langlands 纲领本身可以被认为是类域论的深远推广, 它处理非 a
 
 我们对数域的绝对 Galois 群仍然知之甚少, 但 IUT 提醒数学家, 除非他被理解中的 Galois 差距困扰, 与域不同, 拓扑群能够通过算术形变理论中的某些障碍. 
 
-是 Grothendieck 的想法启动了远 Abel 几何纲领, 它使用代数基本群. [^22] Grothendieck 询问了如何从其代数基本群重建数域上超曲线的同构类. [^23] 代数基本群包含一个子群 —— 几何基本群, 它是域的代数闭包上几何对象的代数基本群. 商群与域的绝对 Galois 群同构. Grothendieck 的猜想及其推广的证明由 望月在 1995 年获得, 并且这一结果在 IUT 中得到应用. 
+是 Grothendieck 的想法启动了远 Abel 几何纲领, 它使用代数基本群. [^22] Grothendieck 询问了如何从其代数基本群重建数域上超曲线的同构类. [^23] 代数基本群包含一个子群 —— 几何基本群, 它是域的代数闭包上几何对象的代数基本群. 商群与域的绝对 Galois 群同构. Grothendieck 的猜想及其推广的证明由望月在 1995 年获得, 并且这一结果在 IUT 中得到应用. 
 
 
 与其在两个域的绝对 Galois 群同构时建立它们之间的同构, 单 Abel 几何学从其绝对Galois群或代数基本群重建一个对象 (即作为一个域) 的环结构. [^24] 2008 年, 望月展示了如何从某个超曲线 $C$ 上的代数基本群恢复一个数域. [^25] 证明涉及一个数域的非阿基米德完备化的子域 $k$, 并包括一个函子化群论算法, 用于将 $k$ 重构为 $C$ 的函数域的子域. 
@@ -143,7 +143,7 @@ $$D_E≤\kappa(C_ED_K)^{6+\varepsilon}$$
 这里 $D_K$ 是 $K$ 的判别式的绝对值, 它衡量了 $K$ 的复杂度. 
 
 
-强 Szpiro 猜想意味着在代数数域上定义的每条亏格 $>1$ 的曲线都只有有限个有理点. 这是 Mordell 猜想. 有几个证明, 第一个是 Gerd Faltings 的, 然后是 Paul Vojta 的一个非常有趣的证明, 使用了与 Nevanlinna 理论的一些类比. Rolf Nevanlinna 和 Oswald Teichmüller 知道彼此的工作, 他们的理论之间存在某些联系. 人们可以问是否存在它们的算术推广之间的联系, 即 Vojta 的证明和 IUT. 众所周知, abc 不等式意味着存在正整数 $n_0$, 使得 Fermat 方程 $X^n+Y^n=Z^n$ 对于任何 $n≥n_0$ 都没有正整数解. 为了得出 Fermat 最后定理的新证明, 必须使 $n_0$ 显式化, 这是 望月建议的一种发展. [^29]
+强 Szpiro 猜想意味着在代数数域上定义的每条亏格 $>1$ 的曲线都只有有限个有理点. 这是 Mordell 猜想. 有几个证明, 第一个是 Gerd Faltings 的, 然后是 Paul Vojta 的一个非常有趣的证明, 使用了与 Nevanlinna 理论的一些类比. Rolf Nevanlinna 和 Oswald Teichmüller 知道彼此的工作, 他们的理论之间存在某些联系. 人们可以问是否存在它们的算术推广之间的联系, 即 Vojta 的证明和 IUT. 众所周知, abc 不等式意味着存在正整数 $n_0$, 使得 Fermat 方程 $X^n+Y^n=Z^n$ 对于任何 $n≥n_0$ 都没有正整数解. 为了得出 Fermat 最后定理的新证明, 必须使 $n_0$ 显式化, 这是望月建议的一种发展. [^29]
 
 
 数域上的椭圆曲线标志着现代数学知识的一个基本边界. 要扩大这个边界, 需要全新的概念、思想和方法. 
@@ -203,13 +203,11 @@ $$F^{⋊±}_l=F_l^⋊/\\{±1\\}, \qquad F^⋇_l=F^×_l/\\{±1\\}$$
 
 在 IUT 中, 对称性一和对称性二与二维 adelic 几何中的两种 adelic 结构之间存在各种非正式的类比, 尽管这些理论彼此根本不同. [^35] 在 IUT 中, 有必要隔离这两种类型的对称性, 以便使用 $F^⋇_l$-对称性处理全局基域；并且为了使用 $F^{⋊±}_l$-对称性建立某些共轭同步. 分而治之. 共轭同步是局部绝对 Galois 群之间的同构系统. 给定共轭同步, Kummer 理论随后应用于 theta 函数的几个特殊值. 
 
-在数域 $F$ 上的椭圆曲线 $E$ 和质数 $l$ 的特定情况下, IUT 使用霍奇剧院 - 概括原始算术和几何的某些方面的范畴对象. 这些全新的概念是由 望月发明的. 
+在数域 $F$ 上的椭圆曲线 $E$ 和质数 $l$ 的特定情况下, IUT 使用霍奇剧院 - 概括原始算术和几何的某些方面的范畴对象. 这些全新的概念是由望月发明的. 
 
 有了剧院, 算术变形作为一种想法和技术成为可能. 在局部域上的变形的一个例子, 比如说 $p$-进数域 $\mathbb{Q}_p$, 是一个映射, 对于固定的 $m$, 将 $p^ju$ 发送到 $p^{jm}u$, 其中 $u$ 是 $\mathbb{Z}_p$ 的所有单位. 虽然这个映射是一个乘法结构的态射, 但显然它与加法不兼容. 
 
-IUT 研究某些非环论关系, 剧院之间的联系. 在这种链接的定义域和值域中唯一有意义的数学对象类型是拓扑群 - 例如 Galois 群基础的抽象拓扑群. 
-
-IUT 研究某些非环论关系, 剧院之间的联系. 在这种链接的定义域和值域中唯一有意义的数学对象类型是拓扑群 - 例如 Galois 群基础的抽象拓扑群. 
+IUT 研究某些非环论关系, 剧院之间的联系. 在这种链接的定义域和值域中唯一有意义的数学对象类型是拓扑群 - 例如 Galois 群底层的抽象拓扑群. 
 
 出现在 theta-链接中的幺半群理论结构由两个局部结构组成：局部域的整数环的单位和 theta 值(定义为乘以 $2l$ 整除阶的根). 在坏约化质数处, theta 链接包括对相关局部域的乘法群的赋值. theta-链接两两相对：有两个不同的环方案理论, 以及 theta-链接的定义域和值域中的两个剧院, 它们在坏约化估值处通过非 Archimedean theta 值相关联. theta-链接需要使用定义在整数环单位上的非 Archimedean 对数映射. 该映射将 $1−x\mapsto −\sum_{n\ge1}\frac{x^n}n$ 发送到整数环的极大理想 $x$ 中, 并将单位根发送到 $0$. 对数与 Galois 自同构兼容. 
 
@@ -231,7 +229,7 @@ IUT 研究某些非环论关系, 剧院之间的联系. 在这种链接的定义
 IUT 的主要目标之一是研究与二维 log-theta-格相关的数学结构. 这些由剧院 $T_{n,m}$ 组成, 其中有向上指向的垂直 log-链接和向右指向的水平 theta-链接. 这个格不是可交换的. 
 
 
-<pre class="quiver" data-height="30em">
+<pre class="quiver" data-height="30rem">
 [0, 10, 
     [0, 1, "\mathscr{T}_{0,1}"],
     [1, 1, "\mathscr{T}_{1,1}"],
@@ -318,17 +316,17 @@ IUT 在其哲学和主要思想上与我们在传统数论中所知道的任何�
 
 [^6]: In conversation.
 
-[^7]: There is also a simple formula to determine whether 2 is a square modulo an odd prime number.
+[^7]: There is also a simple formula to determine whether $2$ is a square modulo an odd prime number.
 
 [^8]: More generally, one uses the map from the quotient to the first Galois cohomology group with coefficients in roots of unity of order dividing $n$.
 
-[^9]: The first examples of local fields, the fields of p-adic numbers Qp for a prime number p, were introduced more than a hundred years ago by Kurt Hensel. In Qp infinite series in integer powers of p with integer coefficients converge and represent (non-uniquely) all its elements. The set of such series with non-negative powers of p forms the ring Zp of p-adic integers in which usual integers Z sit densely with respect to the p-adic topology. These p-adic numbers, and more generally local fields, play a very central role in modern number theory. They deserve to be known by the reader as much as basics of quantum mechanics!
+[^9]: The first examples of local fields, the fields of $p$-adic numbers $\mathbb{Q}_p$ for a prime number p, were introduced more than a hundred years ago by Kurt Hensel. In $\mathbb{Q}_p$ infinite series in integer powers of $p$ with integer coefficients converge and represent (non-uniquely) all its elements. The set of such series with non-negative powers of $p$ forms the ring $\mathbb{Z}_p$ of $p$-adic integers in which usual integers Z sit densely with respect to the $p$-adic topology. These $p$-adic numbers, and more generally local fields, play a very central role in modern number theory. They deserve to be known by the reader as much as basics of quantum mechanics!
 
 [^10]: The closer one looks, the less one sees.
 
 [^11]: Teiji Takagi was the first Japanese researcher who substantially contributed to modern mathematics. Since his work, number theory has been a very well-respected branch of mathematics in Japan to do research in. There is still a certain tendency among many talented young Japanese mathematicians to study number theory.
 
-[^12]: The adelic ring of rational numbers is the direct product of the ring of real numbers and the ring of fractions whose numerator is in the direct product of all p-adic integers and whose denominator is a positive integer.
+[^12]: The adelic ring of rational numbers is the direct product of the ring of real numbers and the ring of fractions whose numerator is in the direct product of all $p$-adic integers and whose denominator is a positive integer.
 
 [^13]: In particular, to the Euler–Riemann zeta function one can relate an adelic zeta integral which can be studied using structures from class field theory and applying harmonic analysis.
 
@@ -360,7 +358,7 @@ IUT 在其哲学和主要思想上与我们在传统数论中所知道的任何�
 
 [^27]: 6 is the degree of the pull-back to the projective line (the compactification of the $λ$-line in the Legendre representation $y^2=x(x−1)(x−λ)$ of elliptic curves, $λ≠0$,$1$,$∞$) of the divisor at infinity of the natural compactification of the moduli stack of elliptic curves over integers tensored with rational numbers.
 
-[^28]: Over the complex numbers the property analogous to the Szpiro conjecture is interesting even though not difficult to establish. For a smooth projective surface equipped with a structure of non-split minimal elliptic surface fibred over a smooth projective connected complex curve of genus g, such that the fibration admits a global section, and, moreover, components of every singular fibre are projective lines which intersect transversally and form an n-gon, this property states that the sum of the number of components of singular fibres does not exceed 6 times the sum of the number of singular fibres and of g. This is a more precise bound than the asymptotic bounds in the arithmetic case. Among several proofs of this property, a proof by Fedor Bogomolov (extended by Shou-Wu Zhang) used the hyperbolic geometry of the upper half-plane, it reduces the proof to checking that the rotations of n-gons are synchronized. This proof has various analogies with IUT, discussed in Shinichi Mochizuki, “Bogomolov’s Proof of the Geometric Version of the Szpiro Conjecture from the Point of View of Inter-universal Teichmüller Theory,” Research in the Mathematical Sciences 3:6 (2016). Kobi Kremnitzer recently found that the essential part of Bogomolov–Zhang’s proof rediscovers the Milnor inequality proved in 1958.
+[^28]: Over the complex numbers the property analogous to the Szpiro conjecture is interesting even though not difficult to establish. For a smooth projective surface equipped with a structure of non-split minimal elliptic surface fibred over a smooth projective connected complex curve of genus g, such that the fibration admits a global section, and, moreover, components of every singular fibre are projective lines which intersect transversally and form an $n$-gon, this property states that the sum of the number of components of singular fibres does not exceed 6 times the sum of the number of singular fibres and of g. This is a more precise bound than the asymptotic bounds in the arithmetic case. Among several proofs of this property, a proof by Fedor Bogomolov (extended by Shou-Wu Zhang) used the hyperbolic geometry of the upper half-plane, it reduces the proof to checking that the rotations of $n$-gons are synchronized. This proof has various analogies with IUT, discussed in Shinichi Mochizuki, “Bogomolov’s Proof of the Geometric Version of the Szpiro Conjecture from the Point of View of Inter-universal Teichmüller Theory,” Research in the Mathematical Sciences 3:6 (2016). Kobi Kremnitzer recently found that the essential part of Bogomolov–Zhang’s proof rediscovers the Milnor inequality proved in 1958.
 
 [^29]: For details see the last paragraph of sect. 2.12 of Ivan Fesenko, “Arithmetic Deformation Theory via Algebraic Fundamental Groups and Nonarchimedean Theta-Functions, Notes on the Work of Shinichi Mochizuki,” European Journal of Mathematics 1 (2015):405–40. It mentions two alternatives to try to achieve a more explicit bound. A short paper on the first alternative was very recently produced by Vesselin Dimitrov.
 
