@@ -1,7 +1,6 @@
 
 ---
 title: Evolution / 新的道路
-home: true
 date: 2023-6-18
 categories:
   - life

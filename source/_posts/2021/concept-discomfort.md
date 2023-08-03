@@ -80,7 +80,7 @@ $\bigg($ $\Z$ 的加法结构$/$环结构 $\bigg)$ <br>
 
 <p style="margin-left:15%;">
 $\bigg($ 提升到 $\Theta\text{-pilot}$ 的环结构 $\bigg)$ <br>
-<p style="margin-left:35%;">$\prec\bigg(\Theta\text{-link}$ 中的乘法幺半群$/$Frobenioids 及 Galois 作用 $\bigg).$</p>
+<p style="margin-left:30%;">$\prec\bigg(\Theta\text{-link}$ 中的乘法幺半群$/$Frobenioids 及 Galois 作用 $\bigg).$</p>
 
 也就是说，总之，
 <p style="margin-left:2em;">
