@@ -45,7 +45,7 @@ tag:
 
 ### Inverse Functions
 
-设函数 $f:X\to Y$, $A\subseteq X$, 则 $$f(A)\overset{\text{def}}{=}\\{f(a)\in Y:a\in A\\}$$ 被称作 $A$ 在 $f$ 下的像. 对每个 $C\subseteq Y$, $$f^{-1}(C)\overset{\text{def}}{=}\\{x\in X:f(x)\in C\\}$$ 被称作 $C$ 在 $f$ 下的原像. $f$ 在 $y$ 处的纤维是指 $f^{-1}(y)\subseteq X$.
+设函数 $f:X\to Y$, $A\subseteq X$, 则 $$f(A)\overset{\text{def}}{=}\\{f(a)\in Y:a\in A\\}$$ 被称作 $A$ 在 $f$ 下的像. 对每个 $C\subseteq Y$, $$f^{-1}( C )\overset{\text{def}}{=}\\{x\in X:f(x)\in C\\}$$ 被称作 $C$ 在 $f$ 下的原像. $f$ 在 $y$ 处的纤维是指 $f^{-1}(y)\subseteq X$.
 
 ### Set Valued Functions
 
@@ -80,4 +80,4 @@ $V$ 中的元素称作向量, 而 $K$ 中的元素称作标量. 约定, 对于�
 对于赋范向量空间 $(E,\\|\cdot\\|)$ 有范数诱导的度量 $d:E\times E\to\R^+$, $(x,y)\mapsto\\|x-y\\|$. 同上定义开球与闭球, 将条件换为 $\\|a-x\\|\lt r$ 及 $\\|a-x\\|\le r$. 有自然记号 $a+r\mathbb{B}=\mathbb{B}(a,r)$. 对向量空间 $E^X$, $X$ 到 $E$ 的有界函数空间即 $$B(X,E)\overset{\text{def}}{=}\\{u\in E^X: u \text{ is bounded} \\}$$ 作为 $E^X$ 的子空间.
 
 ### Euclidean Spaces
-以 $\mathbb{B}^m$ 表示实开 Euclidean 单位球 $\mathbb{B}_{\R^m}$, $\mathbb{B}_1^m$ 与 $\mathbb{B}_\infty^m$ 分别代表 $(\R^m,|\cdot|_1)$ 及 $(\R^m,|\cdot|_\infty)$ 中的单位球.
+以 $\mathbb{B}^m$ 表示实开 Euclidean 单位球 $\mathbb{B}\_{\R^m}$, $\mathbb{B}\_1^m$ 与 $\mathbb{B}\_\infty^m$ 分别代表 $(\R^m,|\cdot|\_1)$ 及 $(\R^m,|\cdot|\_\infty)$ 中的单位球.
