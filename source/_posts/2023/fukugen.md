@@ -102,7 +102,7 @@ Robert Langlands, 他与 Alexander Grothendieck 一起对过去五十年的数�
 
 Langlands 纲领本身可以被认为是类域论的深远推广, 它处理非 abelian Galois 群以及 abelian Galois 群. [^16] 然而, 它的观点非常独特. 没有广义类域, 没有非 abelian 扩张的显式描述, 没有广义互反映射. [^17] 而是使用早期在量子力学中发展的表示理论方法. Galois 群表示与类域论中基域相关的算术对象的表示相协调. 在算术版本的理论中, 人们研究两种类型的 $L$-函数, 每种都推广了 Euler-Riemann zeta 函数. Wiles 对 Fermat 最后定理的证明建立了 Langlands 对应关系的一个非常局部的情况, 适用于有理数上某一类椭圆曲线. [^18] Langlands 纲领的主要开放任务仍然未解决, 但最近有令人兴奋的发展. [^19]
 
-远 Abel 几何是类域论的另一种推广. 类域论使用 Galois 群的 Abel 商, 而各种 Langlands 对应关系处理 Galois 群表示, 远 Abel 几何处理完整的绝对 Galois 群. Neukirch-Ikeda-Uchida 定理是非 Abel 几何中的一个早期结果. 两个数域 $K$ 和 $K^\prime$ 之间的环同构由 $K$ 和 $K^\prime$ 的绝对 Galois 群之间的拓扑群同构导出. 这反映了数域的某种刚性性质. [^20] 这些域由比人们预期的更少的信息唯一确定. 在这种情况下, 数域的绝对 Galois 群的同构类可以恢复或重建数域的同构类. [^21]
+远 Abel 几何是类域论的另一种推广. 类域论使用 Galois 群的 Abel 商, 而各种 Langlands 对应关系处理 Galois 群表示, 远 Abel 几何处理完整的绝对 Galois 群. Neukirch-Ikeda-Uchida 定理是远 Abel 几何中的一个早期结果. 两个数域 $K$ 和 $K^\prime$ 之间的环同构由 $K$ 和 $K^\prime$ 的绝对 Galois 群之间的拓扑群同构导出. 这反映了数域的某种刚性性质. [^20] 这些域由比人们预期的更少的信息唯一确定. 在这种情况下, 数域的绝对 Galois 群的同构类可以恢复或重建数域的同构类. [^21]
 
 
 
