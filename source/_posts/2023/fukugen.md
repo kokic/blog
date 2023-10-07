@@ -10,9 +10,10 @@ tags:
   - IUTT
 ---
 
+<span style="color: grey;">update: 2023-10-7 &emsp; 对译文的修正.</span>
+
+
 译自 [Fukugen - Ivan Fesenko - Inference](https://inference-review.com/article/fukugen). 
-
-
 
 京都的阳光在冬天依旧强烈. 2014 年 12 月, 我拜访了望月新一, 与他讨论了他的跨宇宙 Teichmüller 理论 (IUT) [^1]. 望月是一位杰出的数学家, 也是远 Abel 几何学的领军人物. 他于 2012 年 8 月底首次公开了有关 IUT 的论文. 研究这些论文已经证明是具有挑战性的. 
 
@@ -22,7 +23,7 @@ tags:
 
 数字是我们文化的基本概念之一. 数学中最困难的未解决问题是数论问题. 这很容易理解. 自然数是无限但离散的. 实数形成一个线性连续统. 在十九世纪末, Georg Cantor 证明了自然数和实数之间没有一一对应的映射. 这仍然是一个令人震惊的结果. 这些结构之间的相互作用引发了数学中的根本变革, 许多数学家怀疑, 在深层次上, 自然数背后的数学结构是连续的. 物理学和化学的历史也表明了这一点. 元素周期表似乎列出了一系列离散的原子, 但从量子场论这个更深层次的角度来看, 这些稳定、离散、甚至是孤立的结构是连续场所佩戴的适应性面具. 
 
-IUT 为数字提供了一种新的观点. 这听起来好像望月宣布了一个纯数学计划, 而不是执行了一个计划. 但 IUT 为数论中的几个突出问题提供了证明：椭圆曲线的强 Szpiro 猜想, 双曲曲线的 Vojta 猜想和椭圆曲线的 Frey 猜想. 
+IUT 为数字提供了一种新的观点. 这听起来好像望月宣布而不是执行了一个纯数学计划. 但 IUT 为数论中的几个突出问题提供了证明：椭圆曲线的强 Szpiro 猜想, 双曲曲线的 Vojta 猜想和椭圆曲线的 Frey 猜想. 
 
 它解决了著名的 Oesterlé-Masser 或 abc 猜想 [^2]. 
 
@@ -40,7 +41,7 @@ abc 猜想之所以具有鲜艳的吸引力, 是因为它询问了质数之间�
 
 > abc 猜想描述了加法和乘法之间的一种平衡或张力, 形式化了这样的观察：当两个数字 $a$ 和 $b$ 被小质数的大幂次整除时, $a + b$ 往往被大质数的小幂次整除 [^4]. 
 
-abc 猜想的更强版本有条件地暗示了数十个著名问题的解决方案, 其中包括 Fermat 的最后定理. 证明只需几行, 模 IUT 的文本, 而且证明将与 Andrew Wiles 的第一个证明完全不同. 
+abc 猜想的更强版本有条件地暗示了数十个著名问题的解决方案, 其中包括 Fermat 的最后定理. 模掉 <span style="color: grey;">(译注: 数学术语, 此处可以理解为 "除去")</span> IUT 的文本, 证明只需几行, 而且证明将与 Andrew Wiles 的第一个证明完全不同. 
 
 正如人们所预料的那样, IUT 不是一个能够通过粗略检查获得回报的理论. 
 
@@ -179,7 +180,9 @@ IUT 深刻关注数域的两个基础维度的解构和重构. 某些墙对于�
 在坏约化质数 $v$ 处, $E$ 在 $F$ 的完备化 $F_v$ 中的有理点 $E(F_v)$, 可以看作是乘法群 $F^×_v$ 除以由局部整环的极大理想中的某个元素 $q$ 生成的自由群. 这个元素 $q$ 是 Szpiro 不等式中 $p^{ni}_i$ 的类比. 然后使用非阿基米德 theta 函数
 
 <div class="scroll">
+
 $$\theta(u)=\sum_{n\in\mathbb{Z}}(−1)^nq^{n(n−1)/2}u^n=(1−u)\prod_{n\ge1}((1−q^n)(1−q^nu)(1−q^nu−1))$$
+
 </div>
 
 其中 $u$ 是 $F_v$ 的代数闭包中的非零元素. 最后一个等式是由 Jacobi 三重积公式得出的. 函数方程 $\theta(u)=−u\theta(qu)$ 是显然的. 因此, 对于任意整数 $m$, $q^{(m^2−m)/2}=\theta(−1)/\theta(−q^m)$. 这种关系用于将 $q$ 的幂表示为修正 theta 函数的特殊值. IUT 表明这些值非常特殊. $\theta$ 的许多性质与经典复值 theta 函数的性质相似. 非阿基米德 theta 函数既是一种分析对象, 又比复值 theta 函数更具代数和几何性质. 
@@ -195,7 +198,7 @@ $$\theta(u)=\sum_{n\in\mathbb{Z}}(−1)^nq^{n(n−1)/2}u^n=(1−u)\prod_{n\ge1}(
 
 $$F^{⋊±}_l=F_l^⋊/\\{±1\\}, \qquad F^⋇_l=F^×_l/\\{±1\\}$$
 
-其中 $F_l$ 来源于 $E$ 的 $l$-挠点. $F_l$ 的元素 (在 $F^{⋊±}_l$ 的情况下) 或 $F^⋇_l$ (在 $F^⋇_l$ 的情况下) 称为标签. 标签可以粘合: $\pm a\in\\{−(l−1)/2,\cdots,−1,0,1,\cdots,(l−1)/2\\}$ 与 $a\in\\{1,\cdots,(l−1)/2\\}$ 相同. 
+其中 $F_l$ 来源于 $E$ 的 $l$-挠点. $F_l$ 的元素 (在 $F^{⋊±}_l$ 的情况下) 或 $F^⋇_l$ (在 $F^⋇_l$ 的情况下) 称为标签. 标签可以粘合: $\pm a$ $\in$ $\\{−(l−1)/2,\cdots,−1,0,1,\cdots,(l−1)/2\\}$ 与 $a$ $\in$ $\\{1,\cdots,$ $(l−1)/2\\}$ 相同. 
 
 
 对称性一源自几何基本群的作用, 与 theta 值的 Kummer 理论密切相关. 这种加法对称性本质上是几何的. 对称性二源自某些数域的绝对 Galois 群的作用, 也与相关的 Kummer 理论密切相关. 这种乘法对称性是算术的. 这些对称性被编码在适当的剧院中. 这两种类型的对称性需要使用有限域. 
@@ -226,7 +229,7 @@ IUT 研究某些非环论关系, 剧院之间的联系. 在这种链接的定义
 
 算术变形理论在 IUT 中负责解释环境环的加法结构有多大不同. 广义 Kummer 理论和单 Abel 重建算法适用于这一目的, 它们最终使得比较强 Szpiro 不等式的左右两边成为可能. 
 
-IUT 的主要目标之一是研究与二维 log-theta-格相关的数学结构. 这些由剧院 $T_{n,m}$ 组成, 其中有向上指向的垂直 log-链接和向右指向的水平 theta-链接. 这个格不是可交换的. 
+IUT 的主要目标之一是研究与二维 log-theta-格相关的数学结构. 这些由剧院 $\mathscr{T}_{n,m}$ 组成, 其中有向上指向的垂直 log-链接和向右指向的水平 theta-链接. 这个格不是可交换的. 
 
 
 <pre class="quiver" data-height="30rem">
@@ -288,9 +291,9 @@ IUT 将单 Abel 重建算法应用于出现在一个宇宙中的代数基本群,
 
 研究一元域理论几何或算术同伦论的数学家也对 IUT 感兴趣. 
 
-为什么在 IUT 中使用范畴, 为什么没有集合之间的映射? 这些问题在 40 多年前就在算术几何学中提出. IUT 与代数基本群一起工作, 所以必须使用范畴. 这是 Grothendieck 传达的信息, 但 Grothendieck 的工作并没有真正像天上掉下的 manna 一样出现在所有数论学家面前. 由于被剥夺了 manna, 他们在消化 IUT.[^37] 时比较慢. 
+为什么在 IUT 中使用范畴, 为什么没有集合之间的映射? 这些问题在 40 多年前就在算术几何学中提出. IUT 与代数基本群一起工作, 所以必须使用范畴. 这是 Grothendieck 传达的信息, 但 Grothendieck 的工作并没有真正像天上掉下的甘露一样出现在所有数论学家面前. 由于被剥夺了甘露, 他们消化 IUT [^37] 的速度很慢. 
 
-这种情况时有发生. 
+这种情况时有发生. <span style="color: grey;">(译注: 原文是 "It happens. " 通常传达 "don't worry about it" 这样的含义. )</span>
 
 
 另一方面, IUT 并没有直接使用非概型论解析数论来处理各种不等式的阿基米德方面. 活动的中心通过乘积公式转移到非阿基米德数据. 由此产生的理论不是概型论的. [^38] 在包含一个重要的非概型论核心的意义上, IUT 比传统算术几何学提供的任何东西都更接近于数论中的分析考虑. 
@@ -303,20 +306,19 @@ IUT 在其哲学和主要思想上与我们在传统数论中所知道的任何�
 感谢望月新一为我提供了许多宝贵的讨论, 感谢 David Berlinski 对 IUT 的呈现提出了激发人心的想法. 感谢 Edward Frenkel、Kobi Kremnitzer、Laurent Lafforgue、Robert Langlands、Yuri Manin、Sergey Oblezin、Richard Thomas 和 Boris Zilber 对本文早期版本的评论和建议. 
 
 
-[^1]: Shinichi Mochizuki, “Inter-Universal Teichmüller Theory I: Construction of Hodge theaters,” preprint, 2012–2016; “Inter-universal Teichmüller Theory II: Hodge-Arakelov-theoretic Evaluation,” preprint, 2012–2016; “Inter-universal Teichmüller Theory III: Canonical Splittings of the Log-theta-lattice,” preprint, 2012–2016; “Inter-universal Teichmüller Theory IV: Log-volume Computations and Set-theoretic Foundations,” preprint 2012–2016. Mochizuki has written several survey articles; of which the most recent is “The Mathematics of Mutually Alien Copies: From Gaussian Integrals to Inter-universal Teichmüller Theory” (preprint 2016).
+[^1]: Shinichi Mochizuki, “Inter-Universal Teichmüller Theory I: Construction of Hodge theaters,” preprint, 2012–2016; “Inter-universal Teichmüller Theory II: Hodge-Arakelov-theoretic Evaluation,” preprint, 2012–2016; “Inter-universal Teichmüller Theory III: Canonical Splittings of the Log-theta-lattice,” preprint, 2012–2016; “Inter-universal Teichmüller Theory IV: Log-volume Computations and Set-theoretic Foundations,” preprint 2012–2016. 望月写了几篇综述文章; 最近的一篇是 “The Mathematics of Mutually Alien Copies: From Gaussian Integrals to Inter-universal Teichmüller Theory” (preprint 2016).
 
-[^2]: For more on this, see section 1.3 of Ivan Fesenko, “Arithmetic Deformation Theory via Algebraic Fundamental Groups and Nonarchimedean Theta-Functions, Notes on the Work of Shinichi Mochizuki,” European Journal of Mathematics 1 (2015):405–40.
+[^2]: 有关这方面的更多信息，请参阅 section 1.3 of Ivan Fesenko, “Arithmetic Deformation Theory via Algebraic Fundamental Groups and Nonarchimedean Theta-Functions, Notes on the Work of Shinichi Mochizuki,” European Journal of Mathematics 1 (2015):405–40.
 
-[^3]: Beware that most versions of the abc conjecture presented in Waldschmidt’s text are stronger that the version of the abc inequality presented in this text and proved by Mochizuki. The challenging tasks are to reach to the stronger versions of the abc inequality by following one of the three paths: further develop the theory of Belyi maps, further develop IUT, and combine the main theorems of the current version of IUT with additional study inside classical Diophantine geometry.
-
+[^3]: 请注意，Waldschmidt 文本中提出的 abc 猜想的大多数版本都比本文中提出并由 Mochizuki 证明的 abc 不等式版本更强. 具有挑战性的任务是通过遵循以下三条路径之一来达到 abc 不等式的更强版本: 进一步发展 Belyi 映射的理论，进一步发展 IUT，并将当前版本的 IUT 主定理与经典丢番图几何的额外研究相结合.
 
 [^4]: Michel Waldschmidt, “On the abc Conjecture and Some of Its Consequences,” (2016).
 
-[^5]: Two interesting texts about Grothendieck: Pierre Cartier, “Alexander Grothendieck: A Country Known Only by Name,” Inference: International Review of Science 1 no. 1; Laurent Lafforgue, “Grothendieck et la liberté.”
+[^5]: 关于 Grothendieck 的两篇有趣文章: Pierre Cartier, “Alexander Grothendieck: A Country Known Only by Name,” Inference: International Review of Science 1 no. 1; Laurent Lafforgue, “Grothendieck et la liberté.”
 
 [^6]: In conversation.
 
-[^7]: There is also a simple formula to determine whether $2$ is a square modulo an odd prime number.
+[^7]: 还有一个简单的公式来确定 $2$ 是否是模奇素数的平方.
 
 [^8]: More generally, one uses the map from the quotient to the first Galois cohomology group with coefficients in roots of unity of order dividing $n$.
 
@@ -324,7 +326,7 @@ IUT 在其哲学和主要思想上与我们在传统数论中所知道的任何�
 
 [^10]: The closer one looks, the less one sees.
 
-[^11]: Teiji Takagi was the first Japanese researcher who substantially contributed to modern mathematics. Since his work, number theory has been a very well-respected branch of mathematics in Japan to do research in. There is still a certain tendency among many talented young Japanese mathematicians to study number theory.
+[^11]: 高木贞治是第一位对现代数学做出重大贡献的日本研究者. 自他的工作以来，数论在日本一直被当做非常受尊敬的数学分支进行研究. 许多有才华的年轻的日本数学家仍然倾向于研究数论. 
 
 [^12]: The adelic ring of rational numbers is the direct product of the ring of real numbers and the ring of fractions whose numerator is in the direct product of all $p$-adic integers and whose denominator is a positive integer.
 

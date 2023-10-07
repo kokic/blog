@@ -53,7 +53,7 @@ markdown:
     langPrefix: 'language-'
     breaks: true
     linkify: true
-    typographer: true
+    typographer: false
     quotes: '“”‘’'
   enable_rules:
   disable_rules:
