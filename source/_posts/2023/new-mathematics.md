@@ -14,7 +14,7 @@ tags:
 small { color: grey; }
 </style>
 
-整理自 [abc Conjecture and New Mathematics](https://www.youtube.com/watch?v=fNS7N04DLAQ). 
+整理自 Youtube 视频 [abc Conjecture and New Mathematics](https://www.youtube.com/watch?v=fNS7N04DLAQ). 
 
 <small>
 

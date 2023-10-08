@@ -293,7 +293,8 @@ IUT 将单 Abel 重建算法应用于出现在一个宇宙中的代数基本群,
 
 为什么在 IUT 中使用范畴, 为什么没有集合之间的映射? 这些问题在 40 多年前就在算术几何学中提出. IUT 与代数基本群一起工作, 所以必须使用范畴. 这是 Grothendieck 传达的信息, 但 Grothendieck 的工作并没有真正像天上掉下的甘露一样出现在所有数论学家面前. 由于被剥夺了甘露, 他们消化 IUT [^37] 的速度很慢. 
 
-这种情况时有发生. <span style="color: grey;">(译注: 原文是 "It happens. " 通常传达 "don't worry about it" 这样的含义. )</span>
+这种情况时有发生. 
+<span style="color: grey;">(译注: 原文是 "It happens. " 通常传达 "don't worry about it" 这样的含义. )</span>
 
 
 另一方面, IUT 并没有直接使用非概型论解析数论来处理各种不等式的阿基米德方面. 活动的中心通过乘积公式转移到非阿基米德数据. 由此产生的理论不是概型论的. [^38] 在包含一个重要的非概型论核心的意义上, IUT 比传统算术几何学提供的任何东西都更接近于数论中的分析考虑. 
@@ -322,7 +323,7 @@ IUT 在其哲学和主要思想上与我们在传统数论中所知道的任何�
 
 [^8]: More generally, one uses the map from the quotient to the first Galois cohomology group with coefficients in roots of unity of order dividing $n$.
 
-[^9]: The first examples of local fields, the fields of $p$-adic numbers $\mathbb{Q}_p$ for a prime number p, were introduced more than a hundred years ago by Kurt Hensel. In $\mathbb{Q}_p$ infinite series in integer powers of $p$ with integer coefficients converge and represent (non-uniquely) all its elements. The set of such series with non-negative powers of $p$ forms the ring $\mathbb{Z}_p$ of $p$-adic integers in which usual integers Z sit densely with respect to the $p$-adic topology. These $p$-adic numbers, and more generally local fields, play a very central role in modern number theory. They deserve to be known by the reader as much as basics of quantum mechanics!
+[^9]: The first examples of local fields, the fields of $p$-adic numbers $\mathbb{Q}_p$ for a prime number p, were introduced more than a hundred years ago by Kurt Hensel. In $\mathbb{Q}_p$ infinite series in integer powers of $p$ with integer coefficients converge and represent (non-uniquely) all its elements. The set of such series with non-negative powers of $p$ forms the ring $\mathbb{Z}_p$ of $p$-adic integers in which usual integers $\mathbb{Z}$ sit densely with respect to the $p$-adic topology. These $p$-adic numbers, and more generally local fields, play a very central role in modern number theory. They deserve to be known by the reader as much as basics of quantum mechanics!
 
 [^10]: The closer one looks, the less one sees.
 
@@ -332,27 +333,27 @@ IUT 在其哲学和主要思想上与我们在传统数论中所知道的任何�
 
 [^13]: In particular, to the Euler–Riemann zeta function one can relate an adelic zeta integral which can be studied using structures from class field theory and applying harmonic analysis.
 
-[^14]: He also discovered that the Brauer group is not needed to construct and establish the local and global reciprocity maps in class field theory.
+[^14]: 他还发现, 在类域论中构造和建立局部和整体互反映射不需要 Brauer 群。
 
-[^15]: Tomio Kubota, “Geometry of Numbers and Class Field Theory,” Japanese Journal of Mathematics 13 (1987): 235–75. Remarkably, this paper has not a single reference. See also Tomio Kubota and Satomi Oka, “On the Deduction of the Class Field Theory from the General Reciprocity of Power Residues,” Nagoya Mathematical Journal 160 (2000): 135–42.
+[^15]: Tomio Kubota (久保田富雄), “Geometry of Numbers and Class Field Theory,” Japanese Journal of Mathematics 13 (1987): 235–75. Remarkably, this paper has not a single reference. See also Tomio Kubota and Satomi Oka, “On the Deduction of the Class Field Theory from the General Reciprocity of Power Residues,” Nagoya Mathematical Journal 160 (2000): 135–42.
 
-[^16]: For an excellent introduction to aspects of the Langlands program and its researchers, see Edward Frenkel, Love and Math (New York: Basic Books, 2013).
+[^16]: 有关 Langlands 纲领及其研究人员的各个方面的精彩介绍，请参阅 Edward Frenkel, Love and Math (New York: Basic Books, 2013) <span style="color: grey;">(译注: 这是一本科普书. 如果对 Langlands 纲领已有了解并期望看到严肃材料的读者未必能接受这本书的风格)</span>.
 
-[^17]: There is another nonabelian generalization of class field theory which does involve a generalized nonabelian reciprocity map, see section G.
+[^17]: There is another nonabelian generalization of class field theory which does involve a generalized nonabelian reciprocity map, see section G. 类域论有另一种非 Abel 的推广, 其确实涉及一种推广的非 Abel 互反映射, 见 [section G](https://www.maths.nottingham.ac.uk/personal/ibf/mp.html) <span style="color: grey;">(译注: 原始链接已失效, fesenko 并未处理这个本该使用重定向的问题)</span>. 
 
-[^18]: In relation to the Langlands correspondence for elliptic curves over number fields this is in some sense parallel to the special two class field theories mentioned earlier.
+[^18]: 关于数域上椭圆曲线的 Langlands 对应，这在某种意义上与前面提到的两种特殊的类域论平行. 
 
 [^19]: For one of them, see Robert Langlands, “Problems in the Theory of Automorphic Forms: 45 Years Later,” video lectures for Nottingham–Oxford conference on Symmetries and Correspondences, July 2014. For another see a recent preprint by Laurent Lafforgue entitled “Le principe de fonctorialité de Langlands comme un problème de généralisation de la loi d’addition.” This work reduces the functoriality in the Langlands Program to the existence of the second operation of addition. This sounds familiar to a student of IUT: restoration of addition by using mono-anabelian geometry is one of the main tools in IUT.
 
 [^20]: For some more details see e.g. section 1 of Ivan Fesenko, “Arithmetic Deformation Theory via Algebraic Fundamental Groups and Nonarchimedean Theta-Functions, Notes on the Work of Shinichi Mochizuki,” European Journal of Mathematics 1 (2015): 405–40.
 
-[^21]: The original proof of the NIU theorem used global class field theory and did not yet include Galois theoretic algorithms to reconstruct number fields or their isomorphisms.
+[^21]: NIU 定理的原始证明使用整体类域论且并不包含 Galois 理论算法来重建数域或其同构. 
 
-[^22]: For more on algebraic fundamental groups see section 1.5 of Ivan Fesenko, “Arithmetic Deformation Theory via Algebraic Fundamental Groups and Nonarchimedean Theta-Functions, Notes on the Work of Shinichi Mochizuki,” European Journal of Mathematics 1 (2015):405–40.
+[^22]: 有关代数基本群的更多信息，请参阅 section 1.5 of Ivan Fesenko, “Arithmetic Deformation Theory via Algebraic Fundamental Groups and Nonarchimedean Theta-Functions, Notes on the Work of Shinichi Mochizuki,” European Journal of Mathematics 1 (2015):405–40.
 
-[^23]: The first three contributors to anabelian geometry were Hiroaki Nakamura, Akio Tamagawa, and Shinichi Mochizuki; Florian Pop was the first contributor to birational anabelian geometry and Fedor Bogomolov was the first contributor to birational anabelian geometry over algebraically closed fields.
+[^23]: 远 Abel 几何的前三位贡献者是中村博昭 (Hiroaki Nakamura), 玉川安骑男 (Akio Tamagawa), 和望月新一 (Shinichi Mochizuki). Florian Pop 是首个双有理远 Abel 几何贡献者. Fedor Bogomolov 是首个代数闭域上的双有理远 Abel 几何贡献者. 
 
-[^24]: The reconstruction of a number field from its absolute Galois group is described in a recent paper by Yuichiro Hoshi. It uses Neukirch–Ikeda–Uchida theory, and earlier results and concepts by Shinichi Mochizuki.
+[^24]: 星裕一郎 (Yuichiro Hoshi) 最近的一篇论文中描述了如何从绝对 Galois 群重建为数域. 其使用 Neukirch–Ikeda–Uchida 理论, 及来自望月新一的更早的结果与概念. 
 
 [^25]: Th. 1.9 and section 1 of Shinichi Mochizuki, “Topics in Absolute Anabelian Geometry III: Global Reconstruction Algorithms,” Journal of Mathematical Sciences: The University of Tokyo 22 (2015): 939–1,156.
 
@@ -376,11 +377,11 @@ IUT 在其哲学和主要思想上与我们在传统数论中所知道的任何�
 
 [^35]: As a generalization of the study of the Euler–Riemann zeta function via zeta integrals, mentioned in endnote [^13], this two-dimensional theory studies the zeta function of regular models of elliptic curves over global fields using higher translation invariant integration, objects from higher class field theory, zeta integrals, and an interplay between geometric and analytic two-dimensional adelic structures associated with the models. The deformation map of the multiplicative group of a local field  was used in the definition of the local zeta integral in this theory around 15 years ago. The two symmetries in IUT are reminiscent of the geometric additive two-dimensional adelic structure (whose duality underlies Serre’s duality and the Riemann–Roch theorem), and of the analytic multiplicative two-dimensional adelic structures which underlies the zeta integral. Various analogies between aspects of IUT and the computation of the Gaussian integral are mentioned in Rk 1.12.5 of the second IUT paper and are discussed in the recent survey by Shinichi Mochizuki mentioned in endnote [^1]; on the other hand, there are various analogies between the computation of the Gaussian integral and two computations of the zeta integral.
 
-[^36]: For definitions and examples see sect. 1.7–1.9 of the second IUT paper.
+[^36]: 有关定义和示例, 请参阅 IUT 第二篇论文的 sect. 1.7–1.9. 
 
 [^37]: Some other reasons are mentioned in sect. 3.4 of Ivan Fesenko, “Arithmetic Deformation Theory via Algebraic Fundamental Groups and Nonarchimedean Theta-Functions, Notes on the Work of Shinichi Mochizuki,” European Journal of Mathematics 1 (2015):405–40. There are areas of number theory where analytic and geometric considerations already fruitfully intertwine. For instance, the zeta functions studied via zeta integrals using analysis and geometry of adeles, see endnotes [^13] and [^35].
 
-[^38]: For more details see section 2.12 of Ivan Fesenko, “Arithmetic Deformation Theory via Algebraic Fundamental Groups and Nonarchimedean Theta-Functions, Notes on the Work of Shinichi Mochizuki,” European Journal of Mathematics 1 (2015):405–40.
+[^38]: 有关更多详细信息, 请参阅 Ivan Fesenko 的 section 2.12, “Arithmetic Deformation Theory via Algebraic Fundamental Groups and Nonarchimedean Theta-Functions, Notes on the Work of Shinichi Mochizuki,” European Journal of Mathematics 1 (2015):405–40.
 
-[^39]: Two recent workshops on IUT, held in Oxford and Kyoto, have been attended by more than one hundred mathematicians. For more information about the workshops, see: Workshop on IUT Theory of Shinichi Mochizuki, December 7-11 2015 (Oxford) and Inter-universal Teichmüller Theory Summit 2016, RIMS workshop, July 18-27 2016 (Kyoto).
+[^39]: 最近在牛津和京都举行的两次 IUT 研讨会有一百多位数学家参加. 有关研讨会的更多信息, 请参阅: Workshop on IUT Theory of Shinichi Mochizuki, December 7-11 2015 (Oxford) and Inter-universal Teichmüller Theory Summit 2016, RIMS workshop, July 18-27 2016 (Kyoto).
 
