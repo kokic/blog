@@ -26,7 +26,6 @@ const renderBleachTableData = (row, text, value) => {
   document.createElement("td").setParent(row).style.width = "2em";
   dataText.textContent = `${text}\u00A0:`;
   dataText.style.textAlign = "right";
-  dataText.style.overflowWrap = "normal";
   colorBox.style.width = "1em";
   colorBox.style.height = "1em";
   colorBox.style.display = "inline-block";
@@ -38,6 +37,7 @@ const renderBleachTableRow = (table, ins) => {
   const row = document.createElement("tr").setParent(table);
   const fields = Object.keys(ins);
   row.style.fontSize = "1rem";
+  row.style.whiteSpace = "nowrap";
   fields.forEach(x => renderBleachTableData(row, x, ins[x]));
 }
 

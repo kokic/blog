@@ -43,7 +43,7 @@ Riemann zeta 函数 $(1)$ 可以视为有理数域的 zeta 函数. 这样考虑,
 
 首先, 从有理函数域的情况开始. $p$ 是素数, $\mathbf{F}_p$ 是大小为 $p$ 的有限域. 对于一元多项式环 $A=\mathbf{F}_p[T]$, 它不仅是 **主理想整环**, 而且 **极大理想** $\mathfrak{m}$ 的剩余域 $A/\mathfrak{m}$ 都是有限域, 并且具有与整数环 $\mathbf{Z}$ 非常相似的性质. 使用此方法, 可以将 $A = \mathbf{F}_p[T]$ 的 zeta 函数定义为欧拉乘积 $(2)$
 
-$$\zeta_A(s)=\prod_{\mathfrak{m}:\;A ~ 的极大理想}\Big(1-\frac1{N\mathfrak{m}^s}\Big)^{-1} \tag3$$
+$$\zeta_A(s)=\prod_{\mathfrak{m}: ~ A ~ 的极大理想}\Big(1-\frac1{N\mathfrak{m}^s}\Big)^{-1} \tag3$$
 
 这里, $N\mathfrak{m}$ 是表示有限域 $A/\mathfrak{m}$ 的元素数量的符号.
 
@@ -55,7 +55,7 @@ $A=\mathbf{F}_p[T]$ 的 $\zeta$ 函数 $\zeta_A(s)$ 与黎曼 $\zeta$ 函数 $\z
 
 **问题** $\bf1$ 对于 $A=\mathbf{F}_p[T]$, 证明 $\zeta_A(s)=\dfrac1{1-p^{1-s}}$.
 
-到目前为止, $A$ 是多项式环 $\mathbf{F}_p[T]$, 如果 $A$ 是整数环 $Z$ 上的 **有限生成**, 则对于任何交换环, 都可以使用 $(3)$ 定义其 $\zeta$ 函数. 在这里, 我们使用可交换环的定理, 即整数环 $\mathbf{Z}$ 上的有限生成的环作为有限域的所有域.
+到目前为止, $A$ 是多项式环 $\mathbf{F}_p[T]$, 如果 $A$ 是整数环 $\mathbf{Z}$ 上的 **有限生成**, 则对于任何交换环, 都可以使用 $(3)$ 定义其 $\zeta$ 函数. 在这里, 我们使用可交换环的定理, 即整数环 $\mathbf{Z}$ 上的有限生成的环作为有限域的所有域.
 
 接下来研究的是是多项式环 $\mathbf{F}_p[T]$
 $$\mathbf{F}_p[X,Y]/(Y^2-f(X)) \tag4$$
