@@ -28,7 +28,13 @@ global-reset()
   &:hover
     color: rgb(122, 109, 202)
     background-color: none
-  
+
+
+.fst-letter-red
+  &::first-letter
+    color: var(--first-red)
+    font-size: 120%
+
 #pinned
   margin: 0
   
@@ -37,18 +43,11 @@ global-reset()
     font-family: "Cormorant Garamond"
     color: $color-accent-2
 
-  &::first-letter
-    color: var(--first-red)
-    font-size: 120%
-
-
 .about-links-h2
   font-size: 1.2rem
   font-family: "Cinzel", "Noto Serif SC"
 
-  &::first-letter
-    color: var(--first-red)
-    font-size: 120%
+  
 
 
 /*
