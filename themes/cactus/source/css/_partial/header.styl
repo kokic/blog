@@ -85,6 +85,10 @@
 
   #header #nav
     ul
+      height: 0px
+      overflow: hidden
+      transition: all 0.4s ease-in-out
+      
       a:hover
         background: none
         // color: darken($color-accent-1, 50%)
@@ -100,8 +104,12 @@
         display: inline-block
 
     ul.responsive
+      height: 140px
+    
       li
         display: block
+        transition: all 4s ease-in-out 1s
+
 
     li:not(:first-child)
       padding-top: 1rem
