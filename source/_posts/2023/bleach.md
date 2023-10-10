@@ -33,12 +33,39 @@ const renderBleachTableData = (row, text, value) => {
   colorBox.style.boxShadow = "2px 2px 4px #ccc";
 }
 
+const renderBleachExample = (row, ins) => {
+  const dataText = document.createElement("td").setParent(row);
+  const dataEg = document.createElement("td").setParent(row);
+  const text = document.createElement("span");
+  const shadow = ins["Shadow"] || ins["Text "];
+  
+  if (ins["Text  "]) {
+    const textExtra = document.createElement("span");
+    textExtra.setParent(dataEg);
+    textExtra.textContent = "Faltings";
+    textExtra.style.fontFamily = "Noto Sans";
+    textExtra.style.fontWeight = "bold";
+    textExtra.style.color = ins["Text  "];
+    text.style.marginLeft = "-51%";
+  }
+
+  text.setParent(dataEg);
+  dataText.textContent = "Eg\u00A0:";
+  dataText.style.textAlign = "right";
+  text.textContent = "Faltings";
+  text.style.fontFamily = "Noto Sans";
+  text.style.fontWeight = "bold";
+  text.style.color = ins["Text"];
+  shadow && (text.style.textShadow = `1px 1px 0px ${shadow}`);
+}
+
 const renderBleachTableRow = (table, ins) => {
   const row = document.createElement("tr").setParent(table);
   const fields = Object.keys(ins);
   row.style.fontSize = "1rem";
   row.style.whiteSpace = "nowrap";
   fields.forEach(x => renderBleachTableData(row, x, ins[x]));
+  renderBleachExample(row, ins);
 }
 
 const renderBleachTable = (...rows) => {
