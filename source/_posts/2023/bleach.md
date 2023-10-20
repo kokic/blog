@@ -7,6 +7,39 @@ categories:
 ---
 
 <script>
+
+const upperCaseTextArray = [
+  "Akutagawa", 
+  "Ryūnosuke", 
+  "Kawabata", 
+  "Yasunari", 
+  "Nobuo", 
+  "Yoneda", 
+  "Kiyoshi", 
+  "Oka", 
+  "Yutaka",
+  "Taniyama", 
+  "Goro", 
+  "Shimura", 
+  "Kunihiko",
+  "Kodaira", 
+  "Teiji", 
+  "Takagi", 
+  "Kenkichi", 
+  "Iwasawa", 
+  "Satō", 
+  "Mikio", 
+];
+
+let upperCaseTextIndex = -1;
+
+const getUpperCaseText = function () {
+  upperCaseTextIndex += 1;
+  const text = upperCaseTextArray[upperCaseTextIndex] || "None"
+  return text.toUpperCase();
+}
+
+
 Element.prototype.append = function (child) {
   this.appendChild(child);
   return this;
@@ -28,6 +61,7 @@ const renderBleachTableData = (row, text, value) => {
   dataText.style.textAlign = "right";
   colorBox.style.width = "1em";
   colorBox.style.height = "1em";
+  colorBox.style.borderRadius = "0.1em";
   colorBox.style.display = "inline-block";
   colorBox.style.backgroundColor = value;
   colorBox.style.boxShadow = "2px 2px 4px #ccc";
@@ -38,25 +72,21 @@ const renderBleachExample = (row, ins) => {
   const dataEg = document.createElement("td").setParent(row);
   const text = document.createElement("span");
   const shadow = ins["Shadow"] || ins["Text "];
-  
-  if (ins["Text  "]) {
-    const textExtra = document.createElement("span");
-    textExtra.setParent(dataEg);
-    textExtra.textContent = "Faltings";
-    textExtra.style.fontFamily = "Noto Sans";
-    textExtra.style.fontWeight = "bold";
-    textExtra.style.color = ins["Text  "];
-    text.style.marginLeft = "-51%";
-  }
+  const background = ins["Background"];
+  const textContent = getUpperCaseText();
+  const fontFamily = "Noto Sans";
 
   text.setParent(dataEg);
   dataText.textContent = "Eg\u00A0:";
   dataText.style.textAlign = "right";
-  text.textContent = "Faltings";
-  text.style.fontFamily = "Noto Sans";
+  text.textContent = textContent;
+  text.style.padding = "0 0.3em";
+  text.style.borderRadius = "0.1em";
+  text.style.fontFamily = fontFamily;
   text.style.fontWeight = "bold";
   text.style.color = ins["Text"];
-  shadow && (text.style.textShadow = `1px 1px 0px ${shadow}`);
+  shadow && (text.style.textShadow = `2px 0px 0px ${shadow}`);
+  background && (text.style.backgroundColor = background);
 }
 
 const renderBleachTableRow = (table, ins) => {
@@ -96,12 +126,13 @@ renderBleachTable(
   { Text: "#ff0000", "Text ": "#6e00ff" }, 
   { Text: "#ff1360", "Text ": "#0ffff5" }, 
   { Text: "#ff1662", "Text ": "#000000" }, 
-  { Text: "#fd6d00", "Text ": "#feea00", "Text  ": "#8f00f4" }, 
+  { Text: "#fd6d00", "Text ": "#feea00" }, 
   { Text: "#b0a3f0", Shadow : "#6d05fe" }, 
   { Text: "#fe7f7e", Shadow : "#42acc6" }, 
   { Text: "#03ffbe", "Text ": "#ffb401" },
-  { Text: "#fefd47", Shadow : "#000000" }, 
-  { Text: "#00eafd", Shadow : "#0011e8", "Shadow ": "#ff0000" }, 
+  // { Text: "#fefd47", Shadow : "#000000" }, 
+  { Text: "#00eafd", Shadow : "#0011e8" }, 
+  { Text: "#8f00f4", Shadow : "#ff0000" }, 
   { Text: "#ffffff", "Text ": "#fe006c", Background: "#009cd1" }
 );
 
