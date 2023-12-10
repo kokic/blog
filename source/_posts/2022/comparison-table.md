@@ -24,7 +24,7 @@ table td {
 
 如题，这些词汇的对照在很大程度上是丢失上下文的，所以仅供参考 (譬如 and, affine geometry $\lrarr$ géométrie affine 等). “——” 表直接沿用已有词汇，人名地名等均小写处理.
 
- 英 | 仏 | 霓 | 中 
+英 | 仏 | 霓 | 中 
 -- | -- | -- | -- 
 and | et | と | 与
 adele | adèle | アデール | ——

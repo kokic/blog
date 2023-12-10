@@ -10,7 +10,7 @@ tags:
   - IUTT
 ---
 
-译自 [from Gaussian Integrals to Inter-universal Teichmüller](http://www.kurims.kyoto-u.ac.jp/~motizuki/Alien%20Copies,%20Gaussians,%20and%20inter-universal%20Teichmuller%20Theory.pdf) § 2.14.
+译自 [from Gaussian Integrals to Inter-universal Teichmüller](http://www.kurims.kyoto-u.ac.jp/~motizuki/Alien%20Copies,%20Gaussians,%20and%20Inter-universal%20Teichmuller%20Theory.pdf) § 2.14.
 
 最后, 我们通过暂停来更详细地检查实际上的转换来结束当前的 §2, 实际上, 在当前 §2 的前面部分, 从导数 [在字面意义上, 如在 §2.5 的讨论中] 到 **Galois 群 / étale 基本群** [即, 譬如在 §2.6 及之后的讨论中]. 这种转变与 [HASurI]、[HASurII] 的 [scheme-theoretic] Hodge-Arakelov 理论中的许多思想密切相关.
 
