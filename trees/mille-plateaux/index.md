@@ -1,0 +1,9 @@
+
+---
+title: 千高原
+collect: true 
+---
+
+[-](./AC2A.md#:embed)
+[- 平面曲线的有理点](/mille-plateaux/rational-points.md#:embed)
+[-](./periodic.md#:embed)
