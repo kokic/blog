@@ -31,7 +31,7 @@ $$
 
 其反函数被称为正弦函数，统称圆函数或者三角函数. 
 
-现在, 注意到 $\cot(x)$ 和 $\cot^\prime(x)$ 满足   $\cot^2(x) + \cot^\prime(x) = 1$, 令 $(\cot(x), \cot^\prime(x)) \mapsto (x,y)$, 即 $y=c-x^2$. 
+现在, 注意到 $\cot(x)$ 和 $\cot^\prime(x)$ 满足   $\cot^2(x) + \cot^\prime(x) = -1$, 令 $(\cot(x), \cot^\prime(x)) \mapsto (x,y)$, 即 $y=-x^2-1$. 
 
 其他三角函数及其导数也有类似的关系, 以下列出.
 
@@ -111,6 +111,6 @@ $$
 &\spaces= \int \sqrt{\cosh 2t} \d t \\
 &\spaces= -i \E(it \mid 2) \\
 &\spaces= -i \E(i \cosh^{-1}x \mid 2) \\
-&\spaces= \E(\sin^{-1}x \mid 2) \\
+&\spaces= \E(\sin^{-1}x \mid 2) - \E(\tfrac{\pi}{2} \mid 2) \\
 \end{aligned}
 $$ 

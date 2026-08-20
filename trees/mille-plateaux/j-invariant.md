@@ -18,10 +18,10 @@ $$ j(\tau) \spaces= j(\tau + 1) \spaces= j(-\frac{1}{\tau}) $$
 
 这里的 $\tau \mapsto \tau+1$ 和 $\tau \mapsto -\frac1{\tau}$ 是 $\operatorname{SL}(2, \Z)$ 的生成元, 而模群 $\operatorname{PSL}(2, \Z)$ 定义为其对中心的商 $\operatorname{SL}(2, \Z) / \{\pm I\}$, 注意 $\operatorname{PSL}(2, \Z)$ 和 $\operatorname{SL}(2, \Z)$ 通过 $\tau \mapsto \frac{a\tau+b}{c\tau+d}$ 作用于上半平面 $\mathcal{H} = \{z \in \C : \operatorname{Im}(z) > 0\}$ 时效果相同, 因此讨论 $j$ 的性质时往往只需考察 $\operatorname{PSL}(2, \Z)$. 
 
-$j(\tau)$ 有渐进估计 
+$j$ 的 Fourier 展开中第 $n$ 项的系数 $c(n)$ 有渐近估计 
 
 $$
-j(\tau) \spaces\sim \frac{e^{4\pi\sqrt{n}}}{\sqrt2n^{3/4}} \cdot q^n
+c(n) \spaces\sim \frac{e^{4\pi\sqrt{n}}}{\sqrt2\,n^{3/4}}
 $$ 
 
 和 Fourier 展开 

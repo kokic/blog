@@ -22,6 +22,6 @@ $$ y_\Box^{-6}(x-x_\Box)^2(y_\Box^6x - x_\Box^6x + x_\Box^7 + 3x_\Box^4y_\Box^3+
 
 $$ 2P: (x_\Box, y_\Box) \quad \leadsto \quad \left(\frac{x_\Box(x_\Box^3 + 2y_\Box^3)}{x_\Box^3 - y_\Box^3}, \frac{y_\Box(y_\Box^3 + 2x_\Box^3)}{y_\Box^3 - x_\Box^3}\right) $$
 
-反复利用映射 $2P$ 即可得到 [前文](./canterbury-2A.md) 的 $8P$. 当然, 这也给出如下经典的恒等式. 最早亦可追溯到 [Viète](https://en.wikipedia.org/wiki/Fran%C3%A7ois_Vi%C3%A8te) 和 Bacht. 
+反复利用映射 $2P$ 即可得到 [前文](./canterbury-2A.md) 的 $8P$. 当然, 这也给出如下经典的恒等式. 最早亦可追溯到 [Viète](https://en.wikipedia.org/wiki/Fran%C3%A7ois_Vi%C3%A8te) 和 [Bachet](https://en.wikipedia.org/wiki/Claude_Gaspar_Bachet_de_M%C3%A9ziriac). 
 
 $$ x^3 + y^3 \eqq \left(\frac{x(x^3 + 2y^3)}{x^3 - y^3}\right)^3 + \left(\frac{y(y^3 + 2x^3)}{y^3 - x^3}\right)^3 $$

@@ -2,11 +2,11 @@
 <html lang="en-US"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width"><title>圆的参数化</title><link rel="icon" href="https://kokic.github.io/blog/assets/favicon.ico" /><template id="theme-option-template"><input type="radio" name="theme" /><label></label></template><script src="https://kokic.github.io/blog/main.js"></script><!-- Also see: https://katex.org/docs/autorender -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.45/dist/katex.min.css" integrity="sha384-UA8juhPf75SzzAMA/4fo3yOU7sBJ0om7SCD2GHq0fZqZco6tr1UCV7nUbk9J90JM" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.45/dist/katex.min.js" integrity="sha384-Tt7wBxLKwSzFVRET4O4U9H6v8MNaQ/CjN2FMP4xFm0ErrFu6aNqoonRVW5W40iGI" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.45/dist/contrib/auto-render.min.js" integrity="sha384-bjyGPfbij8/NDKJhSGZNP/khQVgtHUE5exjm4Ydllo42FwIgYsdLO2lXGmRBf5Mz" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.18.1/dist/katex.min.css" integrity="sha384-1vdNCNel6Tx/NQa8IR1mGOGKsbGreCkOPfbtPPnUURJ5Tu2PRVfQ/7KLZC+Pi1p1" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.18.1/dist/katex.min.js" integrity="sha384-ycJ6GAwiS15LoUPipwJOrWTvkUHl/YqELValBwI5I4awP1EeEQJYarj+w85ntcz7" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.18.1/dist/contrib/auto-render.min.js" integrity="sha384-bjyGPfbij8/NDKJhSGZNP/khQVgtHUE5exjm4Ydllo42FwIgYsdLO2lXGmRBf5Mz" crossorigin="anonymous"></script>
 <!-- Also see: https://github.com/KaTeX/KaTeX/tree/main/contrib/copy-tex -->
-<script src="https://cdn.jsdelivr.net/npm/katex@0.16.45/dist/contrib/copy-tex.min.js" integrity="sha384-Pe2JWbaShhSRT0SESJ9XLPeAsi4yrNi7r/CiH0Coq7giBjK5a6Ae7XcybE8rNlQP" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.18.1/dist/contrib/copy-tex.min.js" integrity="sha384-Pe2JWbaShhSRT0SESJ9XLPeAsi4yrNi7r/CiH0Coq7giBjK5a6Ae7XcybE8rNlQP" crossorigin="anonymous"></script>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
@@ -183,7 +183,7 @@ $$</p>
 \arcsin x \spaces= \int_0^x\dfrac{1}{\sqrt{1-t^2}}\d t
 $$</p>
 <p><span lang="zh">其反函数被称为正弦函数，统称圆函数或者三角函数</span>.</p>
-<p><span lang="zh">现在</span>, <span lang="zh">注意到</span> $\cot(x)$ <span lang="zh">和</span> $\cot^\prime(x)$ <span lang="zh">满足</span>   $\cot^2(x) + \cot^\prime(x) = 1$, <span lang="zh">令</span> $(\cot(x), \cot^\prime(x)) \mapsto (x,y)$, <span lang="zh">即</span> $y=c-x^2$.</p>
+<p><span lang="zh">现在</span>, <span lang="zh">注意到</span> $\cot(x)$ <span lang="zh">和</span> $\cot^\prime(x)$ <span lang="zh">满足</span>   $\cot^2(x) + \cot^\prime(x) = -1$, <span lang="zh">令</span> $(\cot(x), \cot^\prime(x)) \mapsto (x,y)$, <span lang="zh">即</span> $y=-x^2-1$.</p>
 <p><span lang="zh">其他三角函数及其导数也有类似的关系</span>, <span lang="zh">以下列出</span>.</p>
 <p>$$\def\arraystretch{2}\begin{array}{|c|c|c|c|} 
 \hline
@@ -245,7 +245,34 @@ $$ (x,y) \quads\mapsto (\cosh t, \sinh t) $$</p>
 &amp;\spaces= \int \sqrt{\cosh 2t} \d t \\
 &amp;\spaces= -i \E(it \mid 2) \\
 &amp;\spaces= -i \E(i \cosh^{-1}x \mid 2) \\
-&amp;\spaces= \E(\sin^{-1}x \mid 2) \\
+&amp;\spaces= \E(\sin^{-1}x \mid 2) - \E(\tfrac{\pi}{2} \mid 2) \\
 \end{aligned}
 $$</p>
+</details></section><section class="block" data-taxon="Definition"><details ><summary id="mille-plateaux-elliptic-integral"><header><h1><span class="taxon">Definition. </span><span lang="zh">椭圆积分</span> <a class="slug" href="https://kokic.github.io/blog/mille-plateaux/elliptic-integral">[elliptic-integral]</a><a class="edit" href="https://github.com/kokic/blog/tree/master/trees/mille-plateaux/elliptic-integral.md">[edit]</a></h1><div class="metadata"><ul><li class="meta-item">January 12, 2025</li><li class="meta-item"><span class="link local"><a href="https://kokic.github.io/blog/kokic" title="Kokic Liu [kokic]">kokic</a></span></li></ul></div></header></summary><p>$\gdef\d{\operatorname{d}}$
+$\gdef\spaces#1{~ #1 ~}$
+$\gdef\quads#1{\quad #1 \quad}$</p>
+<p><span lang="zh">椭圆积分是指形如</span></p>
+<p>$$
+\int R(x, y) \d x, \qquad y^2 \spaces= P(x)
+$$</p>
+<p><span lang="zh">的积分</span>, <span lang="zh">其中</span> $R$ <span lang="zh">是二元有理函数</span>, $P$ <span lang="zh">是次数为</span> $3$ <span lang="zh">或</span> $4$ <span lang="zh">且没有重根的多项式</span>.</p>
+<p><span lang="zh">这个名称来源于其最初被研究的对象</span>, <span lang="zh">即椭圆的</span><span class="link local"><a href="https://kokic.github.io/blog/mille-plateaux/arc-length" title="曲线弧长计算 [mille-plateaux/arc-length]"><span lang="zh">弧长</span></a></span>. <span lang="zh">考虑椭圆</span> $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$, $b &lt; a$, <span lang="zh">取参数化</span> $x = a\sin t$, $y = b\cos t$, <span lang="zh">其弧长积分是</span></p>
+<p>$$
+\begin{aligned}
+s
+&amp;\spaces= a\int_0^t \sqrt{1 - k^2\sin^2\tau} \d\tau \\
+&amp;\spaces= a\int_0^{\sin t} \sqrt{\frac{1-k^2u^2}{1-u^2}} \d u
+\end{aligned}
+$$</p>
+<p><span lang="zh">其中</span> $k^2 = \frac{a^2-b^2}{a^2}$ <span lang="zh">是椭圆离心率的平方</span>. <span lang="zh">这类积分称为第二类椭圆积分</span>, <span lang="zh">是</span> Legendre <span lang="zh">三种标准型之一</span>:</p>
+<p>$$
+\int \frac{\d x}{\sqrt{(1-x^2)(1-k^2x^2)}}, \qquad
+\int \sqrt{\frac{1-k^2x^2}{1-x^2}} \d x, \qquad
+\int \frac{\d x}{(1+nx^2)\sqrt{(1-x^2)(1-k^2x^2)}}
+$$</p>
+<p><span lang="zh">分别称为第一类、第二类和第三类椭圆积分</span>, <span lang="zh">其中</span> $k$ <span lang="zh">称为模数</span>. <span lang="zh">任意椭圆积分都可以通过初等的手段化归为这三者的线性组合</span>.</p>
+<p><span lang="zh">与</span><span class="link local"><a href="https://kokic.github.io/blog/mille-plateaux/circular-curve" title="圆曲线 [mille-plateaux/circular-curve]"><span lang="zh">圆函数</span></a></span><span lang="zh">不同</span>, <span lang="zh">椭圆积分一般不能表示为初等函数</span>. <span lang="zh">圆的情形中</span>, <span lang="zh">弧长积分</span></p>
+<p>$$ \int \frac{\d x}{\sqrt{r^2-x^2}} \spaces= \arcsin \frac{x}{r} $$</p>
+<p><span lang="zh">之所以是初等的</span>, <span lang="zh">是因为</span> $y^2 = r^2-x^2$ <span lang="zh">作为二次曲线拥有</span><span class="link local"><a href="https://kokic.github.io/blog/mille-plateaux/circular-parameterization" title="圆的参数化 [mille-plateaux/circular-parameterization]"><span lang="zh">有理参数化</span></a></span>, <span lang="zh">换元后积分化为有理函数的积分</span>. <span lang="zh">而对于</span> $y^2 = (1-x^2)(1-k^2x^2)$, <span lang="zh">只要</span> $k \ne 0, \pm1$, <span lang="zh">该曲线就是亏格为</span> $1$ <span lang="zh">的椭圆曲线</span>, <span lang="zh">不存在有理参数化</span>, <span lang="zh">这也正是积分无法化为初等函数的原因</span>. <span lang="zh">亏格为</span> $1$ <span lang="zh">还是</span> <span class="link local"><a href="https://kokic.github.io/blog/mille-plateaux/fermat-ascent" title="Fermat 提升法 [mille-plateaux/fermat-ascent]">Fermat <span lang="zh">提升法</span></a></span> <span lang="zh">中弦切法无法由已知点得到全体有理点的根源</span>. <span lang="zh">当</span> $k = \pm1$ <span lang="zh">时</span> $P$ <span lang="zh">出现重根</span>, <span lang="zh">曲线退化为亏格为</span> $0$ <span lang="zh">的情形</span>, <span lang="zh">积分也随之退回初等函数</span>. <span class="link local"><a href="https://kokic.github.io/blog/mille-plateaux/circular-curve" title="圆曲线 [mille-plateaux/circular-curve]"><span lang="zh">圆曲线</span></a></span> <span lang="zh">中双曲线弧长出现的</span> $\int 1/\sqrt{(x^2-1)(2x^2+1)} \d x$ <span lang="zh">正是一个第一类椭圆积分的例子</span>.</p>
+<p><span lang="zh">最后</span>, <span lang="zh">如同</span> $\arcsin$ <span lang="zh">是圆弧长积分的反函数</span>, <span lang="zh">第一类椭圆积分的反函数被称为</span><span class="link local"><a href="https://kokic.github.io/blog/mille-plateaux/elliptic-functions" title="椭圆函数 [mille-plateaux/elliptic-functions]"><span lang="zh">椭圆函数</span></a></span>. <span lang="zh">这样一来</span>, <span lang="zh">椭圆积分的计算中势必出现椭圆函数</span>.</p>
 </details></section></details></section></footer></article></div></body></html>

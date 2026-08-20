@@ -2,11 +2,11 @@
 <html lang="en-US"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width"><title>j-不变量</title><link rel="icon" href="https://kokic.github.io/blog/assets/favicon.ico" /><template id="theme-option-template"><input type="radio" name="theme" /><label></label></template><script src="https://kokic.github.io/blog/main.js"></script><!-- Also see: https://katex.org/docs/autorender -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.45/dist/katex.min.css" integrity="sha384-UA8juhPf75SzzAMA/4fo3yOU7sBJ0om7SCD2GHq0fZqZco6tr1UCV7nUbk9J90JM" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.45/dist/katex.min.js" integrity="sha384-Tt7wBxLKwSzFVRET4O4U9H6v8MNaQ/CjN2FMP4xFm0ErrFu6aNqoonRVW5W40iGI" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.45/dist/contrib/auto-render.min.js" integrity="sha384-bjyGPfbij8/NDKJhSGZNP/khQVgtHUE5exjm4Ydllo42FwIgYsdLO2lXGmRBf5Mz" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.18.1/dist/katex.min.css" integrity="sha384-1vdNCNel6Tx/NQa8IR1mGOGKsbGreCkOPfbtPPnUURJ5Tu2PRVfQ/7KLZC+Pi1p1" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.18.1/dist/katex.min.js" integrity="sha384-ycJ6GAwiS15LoUPipwJOrWTvkUHl/YqELValBwI5I4awP1EeEQJYarj+w85ntcz7" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.18.1/dist/contrib/auto-render.min.js" integrity="sha384-bjyGPfbij8/NDKJhSGZNP/khQVgtHUE5exjm4Ydllo42FwIgYsdLO2lXGmRBf5Mz" crossorigin="anonymous"></script>
 <!-- Also see: https://github.com/KaTeX/KaTeX/tree/main/contrib/copy-tex -->
-<script src="https://cdn.jsdelivr.net/npm/katex@0.16.45/dist/contrib/copy-tex.min.js" integrity="sha384-Pe2JWbaShhSRT0SESJ9XLPeAsi4yrNi7r/CiH0Coq7giBjK5a6Ae7XcybE8rNlQP" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.18.1/dist/contrib/copy-tex.min.js" integrity="sha384-Pe2JWbaShhSRT0SESJ9XLPeAsi4yrNi7r/CiH0Coq7giBjK5a6Ae7XcybE8rNlQP" crossorigin="anonymous"></script>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
@@ -160,9 +160,9 @@ $$</p>
 <p><span lang="zh">这里</span> $q$ <span lang="zh">是</span> <span class="link local"><a href="https://kokic.github.io/blog/mille-plateaux/q-denote" title="q 记号 [mille-plateaux/q-denote]"><span lang="zh">惯用记号</span></a></span>, <span lang="zh">分子是</span> Eisenstein <span lang="zh">级数</span> $E_4(\tau)^3$, <span lang="zh">分母为</span> Ramanujan $\Delta$ <span lang="zh">函数</span>, <span lang="zh">满足</span> $1728 \Delta = E_4^3 - E_6^2$. <span lang="zh">区别于</span> Weierstrass $\Delta = g_2^3 - 27g_3^2$, <span lang="zh">所以此处的没有出现常见定义</span> $j(\tau) = 1728 \cdot \frac{g_2(\tau)^3}{\Delta(\tau)}$ <span lang="zh">中的系数</span> $1728$. <span lang="zh">现在注意</span> $j$ <span lang="zh">作为模函数有</span></p>
 <p>$$ j(\tau) \spaces= j(\tau + 1) \spaces= j(-\frac{1}{\tau}) $$</p>
 <p><span lang="zh">这里的</span> $\tau \mapsto \tau+1$ <span lang="zh">和</span> $\tau \mapsto -\frac1{\tau}$ <span lang="zh">是</span> $\operatorname{SL}(2, \Z)$ <span lang="zh">的生成元</span>, <span lang="zh">而模群</span> $\operatorname{PSL}(2, \Z)$ <span lang="zh">定义为其对中心的商</span> $\operatorname{SL}(2, \Z) / \{\pm I\}$, <span lang="zh">注意</span> $\operatorname{PSL}(2, \Z)$ <span lang="zh">和</span> $\operatorname{SL}(2, \Z)$ <span lang="zh">通过</span> $\tau \mapsto \frac{a\tau+b}{c\tau+d}$ <span lang="zh">作用于上半平面</span> $\mathcal{H} = \{z \in \C : \operatorname{Im}(z) &gt; 0\}$ <span lang="zh">时效果相同</span>, <span lang="zh">因此讨论</span> $j$ <span lang="zh">的性质时往往只需考察</span> $\operatorname{PSL}(2, \Z)$.</p>
-<p>$j(\tau)$ <span lang="zh">有渐进估计</span></p>
+<p>$j$ <span lang="zh">的</span> Fourier <span lang="zh">展开中第</span> $n$ <span lang="zh">项的系数</span> $c(n)$ <span lang="zh">有渐近估计</span></p>
 <p>$$
-j(\tau) \spaces\sim \frac{e^{4\pi\sqrt{n}}}{\sqrt2n^{3/4}} \cdot q^n
+c(n) \spaces\sim \frac{e^{4\pi\sqrt{n}}}{\sqrt2\,n^{3/4}}
 $$</p>
 <p><span lang="zh">和</span> Fourier <span lang="zh">展开</span></p>
 <p>$$
