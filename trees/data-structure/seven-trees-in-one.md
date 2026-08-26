@@ -6,5 +6,5 @@ author: [kokic](/trees/kokic.md)
 nlab: [$n$Lab](https://ncatlab.org/nlab/show/seven+trees+in+one)
 ---
 
-[+](/data-structure/binary-tree.md#:embed)
-[+](/data-structure/blass-lawvere.md#:embed)
+[+](/trees/data-structure/binary-tree.md#:embed)
+[+](/trees/data-structure/blass-lawvere.md#:embed)
