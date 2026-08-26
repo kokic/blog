@@ -4,7 +4,7 @@
 #let gap = 3em
 #let cx = 1
 
-#let tree-max(u) = box(fletcher.diagram(
+#let tree-max(u) = box(inset: 0.1em, fletcher.diagram(
   node-inset: 0pt, 
   node-stroke: 0.8pt,
   crossing-fill: rgb(0, 0, 0, 0), 
@@ -24,7 +24,7 @@
   node((0, y + u), radius: 0.4em), 
 ), height: 6.2em, baseline: 4em)
 
-#let tree4(u, baseline: 1.2em) = box(fletcher.diagram(
+#let tree4(u, baseline: 1.2em) = box(inset: 0.1em, fletcher.diagram(
   node-inset: 0pt, 
   node-stroke: 0.8pt,
   crossing-fill: rgb(0, 0, 0, 0), 
@@ -39,9 +39,9 @@
 
   edge((-u, y), (0, y + u)), 
   node((0, y + u), radius: 0.4em), 
-), height: 3.35em, baseline: baseline)
+), height: 3em, baseline: baseline)
 
-#let tree3(u) = box(fletcher.diagram(
+#let tree3(u) = box(inset: 0.1em, fletcher.diagram(
   node-inset: 0pt, 
   node-stroke: 0.8pt,
   crossing-fill: rgb(0, 0, 0, 0), 

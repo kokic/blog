@@ -136,14 +136,14 @@ def encode : Tree → String
 #let splus = spaces(`++`)
 
 $
-  #enc\(#tree4(0.4)) 
-    &eqq #`"1"` splus #enc\(#tree2(0.4)) splus #enc\(circle) \
-    &eqq #`"1"` splus #`"1"` splus #`"0"` splus 2 dot #enc \(circle) \ \
-    &eqq #`"110"` splus 2 dot #`"100"` \ \
-    &eqq #`"110100100"`
+#enc\(#tree4(0.3)) 
+  &eqq #`"1"` splus #enc\(#tree2(0.3)) splus #enc\(circle) \
+  &eqq #`"1"` splus #`"1"` splus #`"0"` splus 2 dot #enc \(circle) \ \
+  &eqq #`"110"` splus 2 dot #`"100"` \ \
+  &eqq #`"110100100"`
 $
 
-可以验证, 从 `110100100` 这个编码出发, 无法直接恢复原本的 $#tree4(0.25, baseline: 1.7em)$. 
+可以验证, 从 `110100100` 这个编码出发, 无法直接恢复原本的树. 
 
 其正确的 Hille 编码应该为 `1101000100`. 另一方面, 如果将序列 `110100100` 解释为栈的压入弹出操作, 即栈编码, 则可以得到正确的栈置换 `2314`. 这就意味着, 当二叉树的节点个数 $n > 3$ 时, 存在二叉树使得其栈编码与 Hille 编码不同. 回忆二叉树和栈置换之间的双射关系, 这表明必然存在一套手续允许我们在两者之间互相转换, 下面我们将构造性地给出这个结果. 随后解释为何中序遍历在 $n$ 不大情况下能够频繁得到正确的 Hille 编码. 
 
@@ -183,7 +183,7 @@ $
   taxon: "proposition",
 )[
  
-所有 $n$ 节点二叉树的 Hille 编码构成的集合记为 $H_n$, 所有 $n$ 节点二叉树的栈编码构成的集合记为 $C_n$. 对于 $H_n inter C_n$ 的大小 $a_n eq.def |H_n inter C_n|$, 我们有如下刻画. 
+$n$ 节点二叉树的 Hille 编码构成的集合记为 $H_n$, $n$ 节点二叉树的栈编码构成的集合记为 $C_n$. 对于 $H_n inter C_n$ 的大小 $a_n eq.def |H_n inter C_n|$, 我们有如下刻画. 
 
 $
   a_n spaces(=) sum_(k = 0)^(n-1) sum_(j = 0)^(n-k) 1/(j+1) binom(n-k-j, j) binom(k, j) binom(k+j+2, j)
@@ -222,7 +222,7 @@ $ n spaces(lt.slant) ell_n spaces(lt.slant) max(0, 2n - 1, 3n - 4) $
 #tex(`(i)`) 除根节点外至少有一个左结点. 如若不然, 这颗二叉树只会形如 `1010101`$dots.c$, 其长度为 $2n - 1$.
 #tex(`(ii)`) 该二叉树必有一个位于根节点右侧的节点. 否则回溯贡献的长度便不是最大值 $n-2$. 如下图所示
 
-$ #tree3(0.4) $
+$ #tree3(0.3) $
 
 由此出发, 我们将剩余的所有 $n-3$ 个节点全部添加到树中唯一的左节点的右侧. 即
 
